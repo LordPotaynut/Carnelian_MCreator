@@ -1,0 +1,24 @@
+{
+  "group": "frost_wand",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:frost_gem"
+    },
+    "1": {
+      "item": "minecraft:iron_ingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "carnelian:frost_wand",
+    "count": 1
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "_fv": 15,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "condensed_carnelian_helmet",
+    "enableBody": true,
+    "textureBody": "condensed_carnelian_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "condensed_carnelian_leggings",
+    "enableBoots": true,
+    "textureBoots": "condensed_carnelian_boots",
+    "creativeTab": {
+      "value": "CUSTOM:MagicCraft"
+    },
+    "armorTextureFile": "condensed_carnelian_",
+    "helmetName": "Condensed Carnelian Helmet",
+    "bodyName": "Condensed Carnelian Body",
+    "leggingsName": "Condensed Carnelian Leggings",
+    "bootsName": "Condensed Carnelian Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 37,
+    "damageValueHelmet": 3,
+    "damageValueBody": 8,
+    "damageValueLeggings": 6,
+    "damageValueBoots": 3,
+    "enchantability": 9,
+    "toughness": 3.0,
+    "knockbackResistance": 0.1,
+    "equipSound": {
+      "value": "item.armor.equip_netherite"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CondensedCarnelian"
+      }
+    ]
+  }
+}

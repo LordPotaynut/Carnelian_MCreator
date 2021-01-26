@@ -1,0 +1,33 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "carnelian_crystal_axe",
+    "customModelName": "Normal",
+    "name": "Carnelian Crystal Axe",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MagicCraft"
+    },
+    "toolType": "Axe",
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 1.0,
+    "enchantability": 16,
+    "damageVsEntity": 9.0,
+    "usageCount": 1024,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CarnelianShard"
+      },
+      {
+        "value": "CUSTOM:CarnelianCrystal"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

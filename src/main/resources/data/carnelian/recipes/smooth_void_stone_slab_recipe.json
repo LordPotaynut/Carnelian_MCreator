@@ -1,0 +1,22 @@
+{
+  "group": "smooth_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:smooth_void_stone"
+    },
+    "1": {
+      "item": "carnelian:smooth_void_stone"
+    },
+    "2": {
+      "item": "carnelian:smooth_void_stone"
+    }
+  },
+  "result": {
+    "item": "carnelian:smooth_void_stone_slab",
+    "count": 6
+  }
+}

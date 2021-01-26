@@ -1,0 +1,56 @@
+{
+  "display": {
+    "icon": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "title": {
+      "translate": "advancements.crystallized.title"
+    },
+    "description": {
+      "translate": "advancements.crystallized.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "crystallized": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:carnelian_crystal",
+            "count": {
+              "min": 1,
+              "max": 2368
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "carnelian:carnelian_block_recipe",
+      "carnelian:condensed_carnelian_recipe",
+      "carnelian:carnelian_crystal_sword_recipe",
+      "carnelian:carnelian_crystal_pickaxe_recipe",
+      "carnelian:carnelian_crystal_shovel_recipe",
+      "carnelian:carnelian_crystal_axe_recipe",
+      "carnelian:carnelian_crystal_hoe_recipe",
+      "carnelian:flame_gem_recipe",
+      "carnelian:frost_gem_recipe",
+      "carnelian:nature_gem_recipe",
+      "carnelian:flame_wand_recipe",
+      "carnelian:frost_wand_recipe",
+      "carnelian:nature_wand_recipe",
+      "carnelian:carnelian_crystal_helmet_recipe",
+      "carnelian:carnelian_crystal_chestplate_recipe",
+      "carnelian:carnelian_crystal_leggings_recipe",
+      "carnelian:carnelian_crystal_boots_recipe"
+    ]
+  },
+  "parent": "carnelian:first_carnelian"
+}

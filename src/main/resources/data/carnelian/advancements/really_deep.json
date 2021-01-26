@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "really_deep": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:deep_stone",
+            "count": {
+              "min": 1,
+              "max": 2368
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "carnelian:deep_stone_bricks_recipe",
+      "carnelian:smooth_deep_stone_recipe",
+      "carnelian:deep_stone_brick_stairs_recipe",
+      "carnelian:deep_stone_brick_slab_recipe",
+      "carnelian:smooth_deep_stone_slab_recipe",
+      "carnelian:deep_stone_brick_stairs_stonecutter",
+      "carnelian:deep_stone_brick_slab_stonecutter",
+      "carnelian:smooth_deep_stone_slab_stonecutter"
+    ]
+  },
+  "parent": "carnelian:first_carnelian"
+}

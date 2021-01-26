@@ -1,0 +1,9 @@
+{
+  "group": "brick_stair_stonecutter",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "carnelian:void_bricks"
+  },
+  "result": "carnelian:void_brick_stairs"
+}

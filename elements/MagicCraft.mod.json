@@ -1,0 +1,11 @@
+{
+  "_fv": 15,
+  "_type": "tab",
+  "definition": {
+    "name": "Carnelian",
+    "icon": {
+      "value": "CUSTOM:CarnelianBlock"
+    },
+    "showSearch": false
+  }
+}

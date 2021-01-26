@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "carnelian:blocks/void_bricks",
+    "top": "carnelian:blocks/void_bricks",
+    "side": "carnelian:blocks/void_bricks"
+  }
+}

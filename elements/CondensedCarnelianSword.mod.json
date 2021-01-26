@@ -1,0 +1,30 @@
+{
+  "_fv": 15,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "condensed_carnelian_sword",
+    "customModelName": "Normal",
+    "name": "Condensed Carnelian Sword",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:MagicCraft"
+    },
+    "toolType": "Sword",
+    "harvestLevel": 4,
+    "efficiency": 10.0,
+    "attackSpeed": 1.6,
+    "enchantability": 18,
+    "damageVsEntity": 6.0,
+    "usageCount": 2048,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:CondensedCarnelian"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false
+  }
+}

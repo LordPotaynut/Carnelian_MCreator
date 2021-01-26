@@ -1,0 +1,35 @@
+{
+  "_fv": 15,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Dense As A...Something",
+    "achievementDescription": "Achieved the highest tier of Carnelian!",
+    "achievementIcon": {
+      "value": "CUSTOM:CondensedCarnelian"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "CondensedCarnelianSwordRecipe",
+      "CondensedCarnelianPickaxeRecipe",
+      "CondensedCarnelianShovelRecipe",
+      "CondensedCarnelianAxeRecipe",
+      "CondensedCarnelianHoeRecipe",
+      "CondensedCarnelianHelmetRecipe",
+      "CondensedCarnelianChestplateRecipe",
+      "CondensedCarnelianLeggingsRecipe",
+      "CondensedCarnelianBootsRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "challenge",
+    "parent": {
+      "value": "CUSTOM:Crystallized"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"52\" y=\"131\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">2368</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CondensedCarnelian</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

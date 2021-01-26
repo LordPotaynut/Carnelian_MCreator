@@ -1,0 +1,9 @@
+{
+  "group": "brick_stair_stonecutter",
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "carnelian:overgrowth_bricks"
+  },
+  "result": "carnelian:overgrowth_brick_stairs"
+}

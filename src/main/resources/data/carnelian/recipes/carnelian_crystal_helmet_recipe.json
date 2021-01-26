@@ -1,0 +1,29 @@
+{
+  "group": "carnelian_helmets",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "1": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "2": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "3": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "5": {
+      "item": "carnelian:carnelian_crystal"
+    }
+  },
+  "result": {
+    "item": "carnelian:carnelian_crystal_armor_helmet",
+    "count": 1
+  }
+}

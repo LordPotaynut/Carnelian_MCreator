@@ -1,0 +1,34 @@
+{
+  "_fv": 15,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Really Deep",
+    "achievementDescription": "Got a Deep Stone",
+    "achievementIcon": {
+      "value": "CUSTOM:DeepStone"
+    },
+    "background": "Default",
+    "disableDisplay": true,
+    "showPopup": false,
+    "announceToChat": false,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "DeepStoneBricksRecipe",
+      "SmoothDeepStoneRecipe",
+      "DeepStoneBrickStairsRecipe",
+      "DeepStoneBrickSlabRecipe",
+      "SmoothDeepStoneSlabRecipe",
+      "DeepStoneBrickStairsStonecutter",
+      "DeepStoneBrickSlabStonecutter",
+      "SmoothDeepStoneSlabStonecutter"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "goal",
+    "parent": {
+      "value": "CUSTOM:FirstCarnelian"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"25\" y=\"40\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">2368</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:DeepStone</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

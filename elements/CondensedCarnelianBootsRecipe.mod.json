@@ -1,0 +1,23 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smithing",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "carnelian_boots",
+    "recipeShapeless": false,
+    "smithingInputStack": {
+      "value": "CUSTOM:CarnelianCrystalArmor.boots"
+    },
+    "smithingInputAdditionStack": {
+      "value": "CUSTOM:CondensedCarnelian"
+    },
+    "smithingReturnStack": {
+      "value": "CUSTOM:CondensedCarnelianArmor.boots"
+    },
+    "name": "condensed_carnelian_boots_recipe",
+    "namespace": "mod"
+  }
+}

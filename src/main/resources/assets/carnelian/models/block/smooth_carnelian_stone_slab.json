@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "carnelian:blocks/smooth_carnelian_stone",
+    "top": "carnelian:blocks/smooth_carnelian_stone",
+    "side": "carnelian:blocks/smooth_carnelian_stone_slab_side"
+  }
+}

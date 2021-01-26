@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_heat_handler",
+    "name": "Music Disc",
+    "description": "Damckell - Heat Handler",
+    "creativeTab": {
+      "value": "CUSTOM:MagicCraft"
+    },
+    "music": {
+      "value": "CUSTOM:music_disc_heat_handler"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "group": "gems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:packed_ice"
+    },
+    "1": {
+      "item": "minecraft:snow_block"
+    },
+    "2": {
+      "item": "minecraft:packed_ice"
+    },
+    "3": {
+      "item": "minecraft:snow_block"
+    },
+    "4": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "5": {
+      "item": "minecraft:snow_block"
+    },
+    "6": {
+      "item": "minecraft:packed_ice"
+    },
+    "7": {
+      "item": "minecraft:snow_block"
+    },
+    "8": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "result": {
+    "item": "carnelian:frost_gem",
+    "count": 1
+  }
+}

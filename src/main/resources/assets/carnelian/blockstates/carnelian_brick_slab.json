@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "carnelian:block/carnelian_brick_slab"
+    },
+    "type=top": {
+      "model": "carnelian:block/carnelian_brick_slab_top"
+    },
+    "type=double": {
+      "model": "carnelian:block/carnelian_brick_slab_full"
+    }
+  }
+}

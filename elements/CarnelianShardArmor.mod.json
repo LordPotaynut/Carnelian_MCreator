@@ -1,0 +1,58 @@
+{
+  "_fv": 15,
+  "_type": "armor",
+  "definition": {
+    "enableHelmet": true,
+    "textureHelmet": "carnelian_shard_helmet",
+    "enableBody": true,
+    "textureBody": "carnelian_shard_chestplate",
+    "enableLeggings": true,
+    "textureLeggings": "carnelian_shard_leggings",
+    "enableBoots": true,
+    "textureBoots": "carnelian_shard_boots",
+    "creativeTab": {
+      "value": "CUSTOM:MagicCraft"
+    },
+    "armorTextureFile": "carnelian_shard_",
+    "helmetName": "Carnelian Shard Helmet",
+    "bodyName": "Carnelian Shard Body",
+    "leggingsName": "Carnelian Shard Leggings",
+    "bootsName": "Carnelian Shard Boots",
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
+    "helmetModelName": "Default",
+    "helmetModelPart": "Helmet",
+    "helmetModelTexture": "From armor",
+    "bodyModelName": "Default",
+    "bodyModelPart": "Body",
+    "armsModelPartL": "Arms L",
+    "armsModelPartR": "Arms R",
+    "bodyModelTexture": "From armor",
+    "leggingsModelName": "Default",
+    "leggingsModelPartL": "Leggings L",
+    "leggingsModelPartR": "Leggings R",
+    "leggingsModelTexture": "From armor",
+    "bootsModelName": "Default",
+    "bootsModelPartL": "Boots L",
+    "bootsModelPartR": "Boots R",
+    "bootsModelTexture": "From armor",
+    "maxDamage": 25,
+    "damageValueHelmet": 2,
+    "damageValueBody": 6,
+    "damageValueLeggings": 5,
+    "damageValueBoots": 2,
+    "enchantability": 9,
+    "toughness": 0.0,
+    "knockbackResistance": 0.0,
+    "equipSound": {
+      "value": "item.armor.equip_leather"
+    },
+    "repairItems": [
+      {
+        "value": "CUSTOM:CarnelianShard"
+      }
+    ]
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "gems",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": "CUSTOM:CarnelianCrystal"
+      },
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      },
+      {
+        "value": "Blocks.SNOW"
+      },
+      {
+        "value": "Blocks.PACKED_ICE"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:FrostGem"
+    },
+    "name": "frost_gem_recipe",
+    "namespace": "mod"
+  }
+}

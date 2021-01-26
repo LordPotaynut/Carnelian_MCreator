@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Stone cutting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "brick_slab_stonecutter",
+    "recipeShapeless": false,
+    "stoneCuttingInputStack": {
+      "value": "CUSTOM:VoidBricks"
+    },
+    "stoneCuttingReturnStack": {
+      "value": "CUSTOM:VoidBrickSlab"
+    },
+    "name": "void_brick_slab_stonecutter",
+    "namespace": "mod"
+  }
+}

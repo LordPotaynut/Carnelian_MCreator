@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "carnelian:void_gem"
+    },
+    "title": {
+      "translate": "advancements.vwoop.title"
+    },
+    "description": {
+      "translate": "advancements.vwoop.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "vwoop": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:void_wand",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1
+  },
+  "parent": "carnelian:crystallized"
+}

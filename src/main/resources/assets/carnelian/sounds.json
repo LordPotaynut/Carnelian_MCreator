@@ -1,0 +1,42 @@
+{
+  "music_disc_water": {
+    "category": "record",
+    "subtitle": "subtitles.music_disc_water",
+    "sounds": [
+      {
+        "name": "carnelian:music_disc_water",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_water_retro": {
+    "category": "record",
+    "subtitle": "subtitles.music_disc_water_retro",
+    "sounds": [
+      {
+        "name": "carnelian:music_disc_water_retro",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_heat_handler": {
+    "category": "record",
+    "subtitle": "subtitles.music_disc_heat_handler",
+    "sounds": [
+      {
+        "name": "carnelian:music_disc_heat_handler",
+        "stream": true
+      }
+    ]
+  },
+  "music_disc_heat_handler_retro": {
+    "category": "record",
+    "subtitle": "subtitles.music_disc_heat_handler_retro",
+    "sounds": [
+      {
+        "name": "carnelian:music_disc_heat_handler_retro",
+        "stream": true
+      }
+    ]
+  }
+}

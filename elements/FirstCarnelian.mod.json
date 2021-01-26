@@ -1,0 +1,58 @@
+{
+  "_fv": 15,
+  "_type": "achievement",
+  "definition": {
+    "achievementName": "Carnelian",
+    "achievementDescription": "Picked up your first Carnelian Shard! Breaking with a Diamond Pickaxe or higher gives Crystals.",
+    "achievementIcon": {
+      "value": "CUSTOM:CarnelianShard"
+    },
+    "background": "Default",
+    "disableDisplay": false,
+    "showPopup": true,
+    "announceToChat": true,
+    "hideIfNotCompleted": true,
+    "rewardLoot": [],
+    "rewardRecipes": [
+      "CarnelianCrystalRecipe",
+      "CarnelianShardSwordRecipe",
+      "CarnelianShardPickaxeRecipe",
+      "CarnelianShardShovelRecipe",
+      "CarnelianShardAxeRecipe",
+      "CarnelianShardHoeRecipe",
+      "CarnelianBricksRecipe",
+      "SmoothCarnelianStoneRecipe",
+      "CarnelianBrickStairsRecipe",
+      "CarnelianBrickSlabRecipe",
+      "SmoothCarnelianStoneSlabRecipe",
+      "CarnelianBricksStonecutter",
+      "CarnelianBrickSlabStonecutter",
+      "SmoothCarnelianStoneSlabStonecutter",
+      "VoidGemRecipe",
+      "VoidWandRecipe",
+      "MusicDiscWaterRecipe",
+      "DeepStoneOreFurnace",
+      "VoidEssenceOreFurnace",
+      "CarnelianOreFurnace",
+      "MusicDiscWaterRecipe",
+      "MusicDiscWaterRetroRecipe",
+      "MusicDiscHeatHandlerRecipe",
+      "MusicDiscHeatHandlerRetroRecipe",
+      "MusicDiscWaterRecipe",
+      "MusicDiscWaterRetroRecipe",
+      "MusicDiscHeatHandlerRecipe",
+      "MusicDiscHeatHandlerRetroRecipe",
+      "CarnelianShardHelmetRecipe",
+      "CarnelianShardChestplateRecipe",
+      "CarnelianShardLeggingsRecipe",
+      "CarnelianShardBootsRecipe"
+    ],
+    "rewardFunction": "No function",
+    "rewardXP": 1,
+    "achievementType": "task",
+    "parent": {
+      "value": "No parent: root"
+    },
+    "triggerxml": "<xml xmlns=\"https://developers.google.com/blockly/xml\"><block type=\"item_in_inventory\" x=\"69\" y=\"73\"><value name=\"amount_l\"><block type=\"math_number\"><field name=\"NUM\">1</field></block></value><value name=\"amount_h\"><block type=\"math_number\"><field name=\"NUM\">2368</field></block></value><value name=\"item\"><block type=\"mcitem_all\"><field name=\"value\">CUSTOM:CarnelianShard</field></block></value><next><block type=\"advancement_trigger\" deletable=\"false\"></block></next></block></xml>"
+  }
+}

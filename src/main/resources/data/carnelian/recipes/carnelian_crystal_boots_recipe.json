@@ -1,0 +1,26 @@
+{
+  "group": "carnelian_boots",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "2": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "3": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "5": {
+      "item": "carnelian:carnelian_crystal"
+    }
+  },
+  "result": {
+    "item": "carnelian:carnelian_crystal_armor_boots",
+    "count": 1
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "_fv": 15,
+  "_type": "musicdisc",
+  "definition": {
+    "texture": "music_disc_water",
+    "name": "Music Disc",
+    "description": "Damckell - Water",
+    "creativeTab": {
+      "value": "CUSTOM:MagicCraft"
+    },
+    "music": {
+      "value": "CUSTOM:music_disc_water"
+    },
+    "specialInfo": [],
+    "hasGlow": false
+  }
+}

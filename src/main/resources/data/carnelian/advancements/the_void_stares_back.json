@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "the_void_stares_back": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:void_essence",
+            "count": {
+              "min": 1,
+              "max": 2368
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "carnelian:void_bricks_recipe",
+      "carnelian:smooth_void_stone_recipe",
+      "carnelian:void_brick_stairs_recipe",
+      "carnelian:void_brick_slab_recipe",
+      "carnelian:smooth_void_stone_slab_recipe",
+      "carnelian:void_brick_stairs_stonecutter",
+      "carnelian:void_brick_slab_stonecutter",
+      "carnelian:smooth_void_stone_slab_stonecutter"
+    ]
+  },
+  "parent": "carnelian:first_carnelian"
+}

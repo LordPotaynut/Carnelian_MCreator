@@ -1,0 +1,30 @@
+{
+  "group": "carnelian_pickaxes",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    " 4 ",
+    " 7 "
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "1": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "2": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "4": {
+      "item": "minecraft:stick"
+    },
+    "7": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "carnelian:carnelian_crystal_pickaxe",
+    "count": 1
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "group": "smooth_slab_stonecutter",
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "carnelian:smooth_void_stone"
+  },
+  "result": "carnelian:smooth_void_stone_slab"
+}

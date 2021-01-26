@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "carnelian:blocks/deep_stone_bricks",
+    "particle": "carnelian:blocks/deep_stone_bricks"
+  }
+}

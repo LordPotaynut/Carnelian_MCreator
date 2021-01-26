@@ -1,0 +1,16 @@
+{
+  "group": "music_disc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:gray_carpet"
+    },
+    {
+      "item": "minecraft:water_bucket"
+    }
+  ],
+  "result": {
+    "item": "carnelian:music_disc_water",
+    "count": 1
+  }
+}

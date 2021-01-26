@@ -1,0 +1,48 @@
+{
+  "display": {
+    "icon": {
+      "item": "carnelian:condensed_carnelian"
+    },
+    "title": {
+      "translate": "advancements.dense_as_a_something.title"
+    },
+    "description": {
+      "translate": "advancements.dense_as_a_something.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "dense_as_a_something": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:condensed_carnelian",
+            "count": {
+              "min": 1,
+              "max": 2368
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "carnelian:condensed_carnelian_sword_recipe",
+      "carnelian:condensed_carnelian_pickaxe_recipe",
+      "carnelian:condensed_carnelian_shovel_recipe",
+      "carnelian:condensed_carnelian_axe_recipe",
+      "carnelian:condensed_carnelian_hoe_recipe",
+      "carnelian:condensed_carnelian_helmet_recipe",
+      "carnelian:condensed_carnelian_chestplate_recipe",
+      "carnelian:condensed_carnelian_leggings_recipe",
+      "carnelian:condensed_carnelian_boots_recipe"
+    ]
+  },
+  "parent": "carnelian:crystallized"
+}

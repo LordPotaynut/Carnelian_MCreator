@@ -1,0 +1,33 @@
+{
+  "group": "brick_stairs",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0  ",
+    "34 ",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:carnelian_bricks"
+    },
+    "3": {
+      "item": "carnelian:carnelian_bricks"
+    },
+    "4": {
+      "item": "carnelian:carnelian_bricks"
+    },
+    "6": {
+      "item": "carnelian:carnelian_bricks"
+    },
+    "7": {
+      "item": "carnelian:carnelian_bricks"
+    },
+    "8": {
+      "item": "carnelian:carnelian_bricks"
+    }
+  },
+  "result": {
+    "item": "carnelian:carnelian_brick_stairs",
+    "count": 4
+  }
+}

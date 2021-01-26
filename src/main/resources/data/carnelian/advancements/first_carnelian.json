@@ -1,0 +1,71 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "carnelian:carnelian_shard"
+    },
+    "title": {
+      "translate": "advancements.first_carnelian.title"
+    },
+    "description": {
+      "translate": "advancements.first_carnelian.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "first_carnelian": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:carnelian_shard",
+            "count": {
+              "min": 1,
+              "max": 2368
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "carnelian:carnelian_crystal_recipe",
+      "carnelian:carnelian_shard_sword_recipe",
+      "carnelian:carnelian_shard_pickaxe_recipe",
+      "carnelian:carnelian_shard_shovel_recipe",
+      "carnelian:carnelian_shard_axe_recipe",
+      "carnelian:carnelian_shard_hoe_recipe",
+      "carnelian:carnelian_bricks_recipe",
+      "carnelian:smooth_carnelian_stone_recipe",
+      "carnelian:carnelian_brick_stairs_recipe",
+      "carnelian:carnelian_brick_slab_recipe",
+      "carnelian:smooth_carnelian_stone_slab_recipe",
+      "carnelian:carnelian_bricks_stonecutter",
+      "carnelian:carnelian_brick_slab_stonecutter",
+      "carnelian:smooth_carnelian_stone_slab_stonecutter",
+      "carnelian:void_gem_recipe",
+      "carnelian:void_wand_recipe",
+      "carnelian:music_disc_water_recipe",
+      "carnelian:deep_stone_ore_furnace",
+      "carnelian:void_essence_ore_furnace",
+      "carnelian:carnelian_ore_furnace",
+      "carnelian:music_disc_water_recipe",
+      "carnelian:music_disc_water_retro_recipe",
+      "carnelian:music_disc_heat_handler_recipe",
+      "carnelian:music_disc_heat_handler_retro_recipe",
+      "carnelian:music_disc_water_recipe",
+      "carnelian:music_disc_water_retro_recipe",
+      "carnelian:music_disc_heat_handler_recipe",
+      "carnelian:music_disc_heat_handler_retro_recipe",
+      "carnelian:carnelian_shard_helmet_recipe",
+      "carnelian:carnelian_shard_chestplate_recipe",
+      "carnelian:carnelian_shard_leggings_recipe",
+      "carnelian:carnelian_shard_boots_recipe"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "block/slab",
+  "textures": {
+    "bottom": "carnelian:blocks/smooth_overgrowth",
+    "top": "carnelian:blocks/smooth_overgrowth",
+    "side": "carnelian:blocks/smooth_overgrowth_slab_side"
+  }
+}

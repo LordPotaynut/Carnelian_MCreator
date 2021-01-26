@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "carnelian:blocks/void_bricks",
+    "particle": "carnelian:blocks/void_bricks"
+  }
+}

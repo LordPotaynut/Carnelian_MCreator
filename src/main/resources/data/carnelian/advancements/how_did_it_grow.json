@@ -1,0 +1,32 @@
+{
+  "criteria": {
+    "how_did_it_grow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:overgrowth",
+            "count": {
+              "min": 1,
+              "max": 2368
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "carnelian:overgrowth_bricks_recipe",
+      "carnelian:smooth_overgrowth_stone_recipe",
+      "carnelian:overgrowth_brick_stairs_recipe",
+      "carnelian:overgrowth_brick_slab_recipe",
+      "carnelian:smooth_overgrowth_stone_slab_recipe",
+      "carnelian:overgrowth_brick_stairs_stonecutter",
+      "carnelian:overgrowth_brick_slab_stonecutter",
+      "carnelian:smooth_overgrowth_stone_slab_stonecutter"
+    ]
+  },
+  "parent": "carnelian:first_carnelian"
+}

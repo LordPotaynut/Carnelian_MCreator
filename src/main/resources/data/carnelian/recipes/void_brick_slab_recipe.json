@@ -1,0 +1,22 @@
+{
+  "group": "brick_slab",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:void_bricks"
+    },
+    "1": {
+      "item": "carnelian:void_bricks"
+    },
+    "2": {
+      "item": "carnelian:void_bricks"
+    }
+  },
+  "result": {
+    "item": "carnelian:void_brick_slab",
+    "count": 6
+  }
+}

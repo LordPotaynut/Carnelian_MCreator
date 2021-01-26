@@ -1,0 +1,27 @@
+{
+  "group": "carnelian_hoes",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    " 3",
+    " 5"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:condensed_carnelian"
+    },
+    "1": {
+      "item": "carnelian:condensed_carnelian"
+    },
+    "3": {
+      "item": "minecraft:stick"
+    },
+    "5": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "carnelian:condensed_carnelian_hoe",
+    "count": 1
+  }
+}

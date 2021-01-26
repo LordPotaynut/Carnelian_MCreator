@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "carnelian:nature_gem"
+    },
+    "title": {
+      "translate": "advancements.natures_call.title"
+    },
+    "description": {
+      "translate": "advancements.natures_call.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "natures_call": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:nature_wand",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "carnelian:crystallized"
+}

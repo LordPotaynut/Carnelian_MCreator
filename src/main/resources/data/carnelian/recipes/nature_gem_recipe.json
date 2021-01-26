@@ -1,0 +1,42 @@
+{
+  "group": "gems",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:red_mushroom"
+    },
+    "1": {
+      "item": "minecraft:vine"
+    },
+    "2": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "3": {
+      "item": "minecraft:vine"
+    },
+    "4": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "5": {
+      "item": "minecraft:vine"
+    },
+    "6": {
+      "item": "minecraft:brown_mushroom"
+    },
+    "7": {
+      "item": "minecraft:vine"
+    },
+    "8": {
+      "item": "minecraft:red_mushroom"
+    }
+  },
+  "result": {
+    "item": "carnelian:nature_gem",
+    "count": 1
+  }
+}

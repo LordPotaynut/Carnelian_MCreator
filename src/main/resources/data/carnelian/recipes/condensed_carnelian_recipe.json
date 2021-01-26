@@ -1,0 +1,19 @@
+{
+  "group": "condensed_carnelian",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:obsidian"
+    },
+    {
+      "item": "carnelian:carnelian_block"
+    },
+    {
+      "item": "minecraft:diamond"
+    }
+  ],
+  "result": {
+    "item": "carnelian:condensed_carnelian",
+    "count": 1
+  }
+}

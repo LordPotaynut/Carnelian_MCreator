@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "carnelian_helmets",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CarnelianShard"
+      },
+      {
+        "value": "CUSTOM:CarnelianShard"
+      },
+      {
+        "value": "CUSTOM:CarnelianShard"
+      },
+      {
+        "value": "CUSTOM:CarnelianShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CarnelianShard"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:CarnelianShardArmor.helmet"
+    },
+    "name": "carnelian_shard_helmet_recipe",
+    "namespace": "mod"
+  }
+}

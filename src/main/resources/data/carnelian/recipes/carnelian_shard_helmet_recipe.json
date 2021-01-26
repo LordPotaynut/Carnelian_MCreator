@@ -1,0 +1,29 @@
+{
+  "group": "carnelian_helmets",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:carnelian_shard"
+    },
+    "1": {
+      "item": "carnelian:carnelian_shard"
+    },
+    "2": {
+      "item": "carnelian:carnelian_shard"
+    },
+    "3": {
+      "item": "carnelian:carnelian_shard"
+    },
+    "5": {
+      "item": "carnelian:carnelian_shard"
+    }
+  },
+  "result": {
+    "item": "carnelian:carnelian_shard_armor_helmet",
+    "count": 1
+  }
+}

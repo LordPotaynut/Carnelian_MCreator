@@ -1,0 +1,8 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "carnelian:blocks/deep_stone_bricks",
+    "top": "carnelian:blocks/deep_stone_bricks",
+    "side": "carnelian:blocks/deep_stone_bricks"
+  }
+}

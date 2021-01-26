@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "carnelian:blocks/rock_candy_ore",
+    "particle": "carnelian:blocks/rock_candy_ore"
+  }
+}

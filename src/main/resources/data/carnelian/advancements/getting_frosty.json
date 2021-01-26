@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "carnelian:frost_gem"
+    },
+    "title": {
+      "translate": "advancements.getting_frosty.title"
+    },
+    "description": {
+      "translate": "advancements.getting_frosty.descr"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getting_frosty": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "carnelian:frost_wand",
+            "count": {
+              "min": 1,
+              "max": 64
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  },
+  "parent": "carnelian:crystallized"
+}

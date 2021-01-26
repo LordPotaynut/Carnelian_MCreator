@@ -1,0 +1,16 @@
+{
+  "group": "music_disc",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "carnelian:music_disc_water"
+    },
+    {
+      "item": "minecraft:clock"
+    }
+  ],
+  "result": {
+    "item": "carnelian:music_disc_water_retro",
+    "count": 1
+  }
+}

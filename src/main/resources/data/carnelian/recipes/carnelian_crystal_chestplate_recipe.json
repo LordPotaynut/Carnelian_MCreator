@@ -1,0 +1,39 @@
+{
+  "group": "carnelian_chestplates",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0 2",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "2": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "3": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "4": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "5": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "6": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "7": {
+      "item": "carnelian:carnelian_crystal"
+    },
+    "8": {
+      "item": "carnelian:carnelian_crystal"
+    }
+  },
+  "result": {
+    "item": "carnelian:carnelian_crystal_armor_chestplate",
+    "count": 1
+  }
+}

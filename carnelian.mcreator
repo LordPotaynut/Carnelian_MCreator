@@ -1,0 +1,2248 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "RockCandyOre",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_ore"
+    },
+    {
+      "name": "RockCandyPurple",
+      "type": "food",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_purple"
+    },
+    {
+      "name": "RockCandyBlue",
+      "type": "food",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_blue"
+    },
+    {
+      "name": "RockCandyGreen",
+      "type": "food",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_green"
+    },
+    {
+      "name": "RockCandyOrange",
+      "type": "food",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_orange"
+    },
+    {
+      "name": "RockCandyRed",
+      "type": "food",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_red"
+    },
+    {
+      "name": "RockCandyOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RockCandyDrops",
+      "type": "loottable",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_drops"
+    },
+    {
+      "name": "MagicCraft",
+      "type": "tab",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "magic_craft"
+    },
+    {
+      "name": "FlameWand",
+      "type": "gun",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_wand"
+    },
+    {
+      "name": "FrostWandFreeze",
+      "type": "procedure",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_wand_freeze",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FrostWand",
+      "type": "item",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_wand"
+    },
+    {
+      "name": "CarnelianShard",
+      "type": "item",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard"
+    },
+    {
+      "name": "CarnelianCrystal",
+      "type": "item",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal"
+    },
+    {
+      "name": "CarnelianCrystalRecipe",
+      "type": "recipe",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_recipe"
+    },
+    {
+      "name": "CarnelianOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarnelianOre",
+      "type": "block",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_ore"
+    },
+    {
+      "name": "CarnelianShardSword",
+      "type": "tool",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_sword"
+    },
+    {
+      "name": "CarnelianShardPickaxe",
+      "type": "tool",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_pickaxe"
+    },
+    {
+      "name": "CarnelianShardShovel",
+      "type": "tool",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_shovel"
+    },
+    {
+      "name": "CarnelianShardAxe",
+      "type": "tool",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_axe"
+    },
+    {
+      "name": "CarnelianShardHoe",
+      "type": "tool",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_hoe"
+    },
+    {
+      "name": "CarnelianBlock",
+      "type": "block",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_block"
+    },
+    {
+      "name": "CarnelianBlockRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_block_recipe"
+    },
+    {
+      "name": "CondensedCarnelian",
+      "type": "item",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian"
+    },
+    {
+      "name": "CondensedCarnelianRecipe",
+      "type": "recipe",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_recipe"
+    },
+    {
+      "name": "CarnelianCrystalSword",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_sword"
+    },
+    {
+      "name": "CarnelianCrystalPickaxe",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_pickaxe"
+    },
+    {
+      "name": "CarnelianCrystalShovel",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_shovel"
+    },
+    {
+      "name": "CarnelianCrystalAxe",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_axe"
+    },
+    {
+      "name": "CarnelianCrystalHoe",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_hoe"
+    },
+    {
+      "name": "CondensedCarnelianSword",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_sword"
+    },
+    {
+      "name": "CondensedCarnelianPickaxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_pickaxe"
+    },
+    {
+      "name": "CondensedCarnelianShovel",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_shovel"
+    },
+    {
+      "name": "CondensedCarnelianAxe",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_axe"
+    },
+    {
+      "name": "CondensedCarnelianHoe",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_hoe"
+    },
+    {
+      "name": "CarnelianShardSwordRecipe",
+      "type": "recipe",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_sword_recipe"
+    },
+    {
+      "name": "CarnelianCrystalSwordRecipe",
+      "type": "recipe",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_sword_recipe"
+    },
+    {
+      "name": "CondensedCarnelianSwordRecipe",
+      "type": "recipe",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_sword_recipe"
+    },
+    {
+      "name": "CarnelianShardPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_pickaxe_recipe"
+    },
+    {
+      "name": "CarnelianCrystalPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_pickaxe_recipe"
+    },
+    {
+      "name": "CondensedCarnelianPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_pickaxe_recipe"
+    },
+    {
+      "name": "CarnelianShardShovelRecipe",
+      "type": "recipe",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_shovel_recipe"
+    },
+    {
+      "name": "CarnelianCrystalShovelRecipe",
+      "type": "recipe",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_shovel_recipe"
+    },
+    {
+      "name": "CondensedCarnelianShovelRecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_shovel_recipe"
+    },
+    {
+      "name": "CarnelianShardAxeRecipe",
+      "type": "recipe",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_axe_recipe"
+    },
+    {
+      "name": "CarnelianCrystalAxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_axe_recipe"
+    },
+    {
+      "name": "CondensedCarnelianAxeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_axe_recipe"
+    },
+    {
+      "name": "CarnelianShardHoeRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_hoe_recipe"
+    },
+    {
+      "name": "CarnelianCrystalHoeRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_hoe_recipe"
+    },
+    {
+      "name": "CondensedCarnelianHoeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_hoe_recipe"
+    },
+    {
+      "name": "FirstCarnelian",
+      "type": "achievement",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "first_carnelian"
+    },
+    {
+      "name": "Crystallized",
+      "type": "achievement",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "crystallized"
+    },
+    {
+      "name": "DenseAsASomething",
+      "type": "achievement",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dense_as_a_something"
+    },
+    {
+      "name": "NatureWand",
+      "type": "item",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nature_wand"
+    },
+    {
+      "name": "NatureWandTryBoneMeal",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nature_wand_try_bone_meal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "FlameGem",
+      "type": "item",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_gem"
+    },
+    {
+      "name": "FrostGem",
+      "type": "item",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_gem"
+    },
+    {
+      "name": "NatureGem",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nature_gem"
+    },
+    {
+      "name": "FlameGemRecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_gem_recipe"
+    },
+    {
+      "name": "FrostGemRecipe",
+      "type": "recipe",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_gem_recipe"
+    },
+    {
+      "name": "NatureGemRecipe",
+      "type": "recipe",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nature_gem_recipe"
+    },
+    {
+      "name": "FlameWandRecipe",
+      "type": "recipe",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_wand_recipe"
+    },
+    {
+      "name": "FrostWandRecipe",
+      "type": "recipe",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "frost_wand_recipe"
+    },
+    {
+      "name": "NatureWandRecipe",
+      "type": "recipe",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "nature_wand_recipe"
+    },
+    {
+      "name": "FlameOn",
+      "type": "achievement",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "flame_on"
+    },
+    {
+      "name": "GettingFrosty",
+      "type": "achievement",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "getting_frosty"
+    },
+    {
+      "name": "NaturesCall",
+      "type": "achievement",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "natures_call"
+    },
+    {
+      "name": "Overgrowth",
+      "type": "block",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth"
+    },
+    {
+      "name": "DeepStoneOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepStoneOre",
+      "type": "block",
+      "sortid": 70,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_ore"
+    },
+    {
+      "name": "DeepStone",
+      "type": "item",
+      "sortid": 71,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone"
+    },
+    {
+      "name": "VoidEssence",
+      "type": "item",
+      "sortid": 72,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_essence"
+    },
+    {
+      "name": "VoidEssenceOreBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_essence_ore_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidEssenceOre",
+      "type": "block",
+      "sortid": 73,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_essence_ore"
+    },
+    {
+      "name": "CarnelianBricks",
+      "type": "block",
+      "sortid": 74,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_bricks"
+    },
+    {
+      "name": "CarnelianBricksBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 75,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_bricks_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepStoneBricks",
+      "type": "block",
+      "sortid": 76,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_bricks"
+    },
+    {
+      "name": "DeepStoneBricksBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 77,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_bricks_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OvergrowthBricks",
+      "type": "block",
+      "sortid": 78,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_bricks"
+    },
+    {
+      "name": "OvergrowthBricksBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 79,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_bricks_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidBricks",
+      "type": "block",
+      "sortid": 80,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_bricks"
+    },
+    {
+      "name": "VoidBricksBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 81,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_bricks_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmoothCarnelianStone",
+      "type": "block",
+      "sortid": 82,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_carnelian_stone"
+    },
+    {
+      "name": "SmoothCarnelianStoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 83,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_carnelian_stone_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmoothDeepStone",
+      "type": "block",
+      "sortid": 84,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_deep_stone"
+    },
+    {
+      "name": "SmoothDeepStoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 85,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_deep_stone_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmoothOvergrowthStone",
+      "type": "block",
+      "sortid": 86,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_overgrowth_stone"
+    },
+    {
+      "name": "SmoothOvergrowthStoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 87,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_overgrowth_stone_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmoothVoidStone",
+      "type": "block",
+      "sortid": 88,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_void_stone"
+    },
+    {
+      "name": "SmoothVoidStoneBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 89,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_void_stone_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SmoothCarnelianStoneSlab",
+      "type": "block",
+      "sortid": 90,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_carnelian_stone_slab"
+    },
+    {
+      "name": "SmoothDeepStoneSlab",
+      "type": "block",
+      "sortid": 91,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_deep_stone_slab"
+    },
+    {
+      "name": "SmoothOvergrowthStoneSlab",
+      "type": "block",
+      "sortid": 92,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_overgrowth_stone_slab"
+    },
+    {
+      "name": "SmoothVoidStoneSlab",
+      "type": "block",
+      "sortid": 93,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_void_stone_slab"
+    },
+    {
+      "name": "CarnelianBrickStairs",
+      "type": "block",
+      "sortid": 94,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_brick_stairs"
+    },
+    {
+      "name": "CarnelianBrickStairsBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 95,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_brick_stairs_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepStoneBrickStairs",
+      "type": "block",
+      "sortid": 96,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_brick_stairs"
+    },
+    {
+      "name": "DeepStoneBrickStairsBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 97,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_brick_stairs_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OvergrowthBrickStairs",
+      "type": "block",
+      "sortid": 98,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_brick_stairs"
+    },
+    {
+      "name": "OvergrowthBrickStairsBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 99,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_brick_stairs_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidBrickStairs",
+      "type": "block",
+      "sortid": 100,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_stairs"
+    },
+    {
+      "name": "VoidBrickStairsBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 101,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_stairs_block_destroyed_by_player",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "CarnelianBrickSlab",
+      "type": "block",
+      "sortid": 102,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_brick_slab"
+    },
+    {
+      "name": "DeepStoneBrickSlab",
+      "type": "block",
+      "sortid": 103,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_brick_slab"
+    },
+    {
+      "name": "OvergrowthBrickSlab",
+      "type": "block",
+      "sortid": 104,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_brick_slab"
+    },
+    {
+      "name": "VoidBrickSlab",
+      "type": "block",
+      "sortid": 105,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_slab"
+    },
+    {
+      "name": "CarnelianBricksRecipe",
+      "type": "recipe",
+      "sortid": 106,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_bricks_recipe"
+    },
+    {
+      "name": "DeepStoneBricksRecipe",
+      "type": "recipe",
+      "sortid": 107,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_bricks_recipe"
+    },
+    {
+      "name": "OvergrowthBricksRecipe",
+      "type": "recipe",
+      "sortid": 108,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_bricks_recipe"
+    },
+    {
+      "name": "VoidBricksRecipe",
+      "type": "recipe",
+      "sortid": 109,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_bricks_recipe"
+    },
+    {
+      "name": "SmoothCarnelianStoneRecipe",
+      "type": "recipe",
+      "sortid": 110,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_carnelian_stone_recipe"
+    },
+    {
+      "name": "SmoothDeepStoneRecipe",
+      "type": "recipe",
+      "sortid": 111,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_deep_stone_recipe"
+    },
+    {
+      "name": "SmoothOvergrowthStoneRecipe",
+      "type": "recipe",
+      "sortid": 112,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_overgrowth_stone_recipe"
+    },
+    {
+      "name": "SmoothVoidStoneRecipe",
+      "type": "recipe",
+      "sortid": 113,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_void_stone_recipe"
+    },
+    {
+      "name": "CarnelianBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 114,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_brick_stairs_recipe"
+    },
+    {
+      "name": "DeepStoneBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 115,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_brick_stairs_recipe"
+    },
+    {
+      "name": "OvergrowthBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 116,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_brick_stairs_recipe"
+    },
+    {
+      "name": "VoidBrickStairsRecipe",
+      "type": "recipe",
+      "sortid": 117,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_stairs_recipe"
+    },
+    {
+      "name": "CarnelianBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 118,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_brick_slab_recipe"
+    },
+    {
+      "name": "DeepStoneBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 119,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_brick_slab_recipe"
+    },
+    {
+      "name": "OvergrowthBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 120,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_brick_slab_recipe"
+    },
+    {
+      "name": "VoidBrickSlabRecipe",
+      "type": "recipe",
+      "sortid": 121,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_slab_recipe"
+    },
+    {
+      "name": "SmoothCarnelianStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 122,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_carnelian_stone_slab_recipe"
+    },
+    {
+      "name": "SmoothDeepStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 123,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_deep_stone_slab_recipe"
+    },
+    {
+      "name": "SmoothOvergrowthStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 124,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_overgrowth_stone_slab_recipe"
+    },
+    {
+      "name": "SmoothVoidStoneSlabRecipe",
+      "type": "recipe",
+      "sortid": 125,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_void_stone_slab_recipe"
+    },
+    {
+      "name": "CarnelianBricksStonecutter",
+      "type": "recipe",
+      "sortid": 126,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_bricks_stonecutter"
+    },
+    {
+      "name": "DeepStoneBrickStairsStonecutter",
+      "type": "recipe",
+      "sortid": 127,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_brick_stairs_stonecutter"
+    },
+    {
+      "name": "OvergrowthBrickStairsStonecutter",
+      "type": "recipe",
+      "sortid": 128,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_brick_stairs_stonecutter"
+    },
+    {
+      "name": "VoidBrickStairsStonecutter",
+      "type": "recipe",
+      "sortid": 129,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_stairs_stonecutter"
+    },
+    {
+      "name": "CarnelianBrickSlabStonecutter",
+      "type": "recipe",
+      "sortid": 130,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_brick_slab_stonecutter"
+    },
+    {
+      "name": "DeepStoneBrickSlabStonecutter",
+      "type": "recipe",
+      "sortid": 131,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_brick_slab_stonecutter"
+    },
+    {
+      "name": "OvergrowthBrickSlabStonecutter",
+      "type": "recipe",
+      "sortid": 132,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "overgrowth_brick_slab_stonecutter"
+    },
+    {
+      "name": "VoidBrickSlabStonecutter",
+      "type": "recipe",
+      "sortid": 133,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_brick_slab_stonecutter"
+    },
+    {
+      "name": "SmoothCarnelianStoneSlabStonecutter",
+      "type": "recipe",
+      "sortid": 134,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_carnelian_stone_slab_stonecutter"
+    },
+    {
+      "name": "SmoothDeepStoneSlabStonecutter",
+      "type": "recipe",
+      "sortid": 135,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_deep_stone_slab_stonecutter"
+    },
+    {
+      "name": "SmoothOvergrowthStoneSlabStonecutter",
+      "type": "recipe",
+      "sortid": 136,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_overgrowth_stone_slab_stonecutter"
+    },
+    {
+      "name": "SmoothVoidStoneSlabStonecutter",
+      "type": "recipe",
+      "sortid": 137,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "smooth_void_stone_slab_stonecutter"
+    },
+    {
+      "name": "ReallyDeep",
+      "type": "achievement",
+      "sortid": 138,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "really_deep"
+    },
+    {
+      "name": "HowDidItGrow",
+      "type": "achievement",
+      "sortid": 139,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "how_did_it_grow"
+    },
+    {
+      "name": "TheVoidStaresBack",
+      "type": "achievement",
+      "sortid": 140,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "the_void_stares_back"
+    },
+    {
+      "name": "VoidGem",
+      "type": "item",
+      "sortid": 141,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_gem"
+    },
+    {
+      "name": "VoidWandBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_wand_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidWand",
+      "type": "gun",
+      "sortid": 142,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_wand"
+    },
+    {
+      "name": "VoidGemRecipe",
+      "type": "recipe",
+      "sortid": 143,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_gem_recipe"
+    },
+    {
+      "name": "VoidWandRecipe",
+      "type": "recipe",
+      "sortid": 144,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_wand_recipe"
+    },
+    {
+      "name": "Vwoop",
+      "type": "achievement",
+      "sortid": 145,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "vwoop"
+    },
+    {
+      "name": "DeepStoneOreFurnace",
+      "type": "recipe",
+      "sortid": 150,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_stone_ore_furnace"
+    },
+    {
+      "name": "VoidEssenceOreFurnace",
+      "type": "recipe",
+      "sortid": 151,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_essence_ore_furnace"
+    },
+    {
+      "name": "CarnelianOreFurnace",
+      "type": "recipe",
+      "sortid": 152,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_ore_furnace"
+    },
+    {
+      "name": "MusicDiscWater",
+      "type": "musicdisc",
+      "sortid": 153,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_water"
+    },
+    {
+      "name": "MusicDiscWaterRecipe",
+      "type": "recipe",
+      "sortid": 154,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_water_recipe"
+    },
+    {
+      "name": "MusicDiscWaterRetro",
+      "type": "musicdisc",
+      "sortid": 155,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_water_retro"
+    },
+    {
+      "name": "MusicDiscHeatHandler",
+      "type": "musicdisc",
+      "sortid": 156,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_heat_handler"
+    },
+    {
+      "name": "MusicDiscHeatHandlerRetro",
+      "type": "musicdisc",
+      "sortid": 157,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_heat_handler_retro"
+    },
+    {
+      "name": "MusicDiscWaterRetroRecipe",
+      "type": "recipe",
+      "sortid": 158,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_water_retro_recipe"
+    },
+    {
+      "name": "MusicDiscHeatHandlerRecipe",
+      "type": "recipe",
+      "sortid": 159,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_heat_handler_recipe"
+    },
+    {
+      "name": "MusicDiscHeatHandlerRetroRecipe",
+      "type": "recipe",
+      "sortid": 160,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "music_disc_heat_handler_retro_recipe"
+    },
+    {
+      "name": "CarnelianShardArmor",
+      "type": "armor",
+      "sortid": 161,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CarnelianCrystalArmor",
+      "type": "armor",
+      "sortid": 162,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CondensedCarnelianArmor",
+      "type": "armor",
+      "sortid": 163,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_armor",
+      "metadata": {
+        "eh": true,
+        "el": true,
+        "eb": true,
+        "ec": true
+      }
+    },
+    {
+      "name": "CarnelianShardHelmetRecipe",
+      "type": "recipe",
+      "sortid": 164,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_helmet_recipe"
+    },
+    {
+      "name": "CarnelianShardChestplateRecipe",
+      "type": "recipe",
+      "sortid": 165,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_chestplate_recipe"
+    },
+    {
+      "name": "CarnelianShardLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 166,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_leggings_recipe"
+    },
+    {
+      "name": "CarnelianShardBootsRecipe",
+      "type": "recipe",
+      "sortid": 167,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_shard_boots_recipe"
+    },
+    {
+      "name": "CarnelianCrystalHelmetRecipe",
+      "type": "recipe",
+      "sortid": 168,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_helmet_recipe"
+    },
+    {
+      "name": "CarnelianCrystalChestplateRecipe",
+      "type": "recipe",
+      "sortid": 169,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_chestplate_recipe"
+    },
+    {
+      "name": "CarnelianCrystalLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 170,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_leggings_recipe"
+    },
+    {
+      "name": "CarnelianCrystalBootsRecipe",
+      "type": "recipe",
+      "sortid": 171,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_boots_recipe"
+    },
+    {
+      "name": "CondensedCarnelianHelmetRecipe",
+      "type": "recipe",
+      "sortid": 172,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_helmet_recipe"
+    },
+    {
+      "name": "CondensedCarnelianChestplateRecipe",
+      "type": "recipe",
+      "sortid": 173,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_chestplate_recipe"
+    },
+    {
+      "name": "CondensedCarnelianLeggingsRecipe",
+      "type": "recipe",
+      "sortid": 174,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_leggings_recipe"
+    },
+    {
+      "name": "CondensedCarnelianBootsRecipe",
+      "type": "recipe",
+      "sortid": 175,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "condensed_carnelian_boots_recipe"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "music_disc_water",
+      "files": [
+        "music_disc_water"
+      ],
+      "category": "record",
+      "subtitle": "Music"
+    },
+    {
+      "name": "music_disc_water_retro",
+      "files": [
+        "music_disc_water_retro"
+      ],
+      "category": "record",
+      "subtitle": "Music"
+    },
+    {
+      "name": "music_disc_heat_handler",
+      "files": [
+        "music_disc_heat_handler"
+      ],
+      "category": "record",
+      "subtitle": "Music"
+    },
+    {
+      "name": "music_disc_heat_handler_retro",
+      "files": [
+        "music_disc_heat_handler_retro"
+      ],
+      "category": "record",
+      "subtitle": "Music"
+    }
+  ],
+  "language_map": {
+    "en_us": {
+      "item.the_extras.carnelian_crystal": "Carnelian Crystal",
+      "item.carnelian.music_disc_heat_handler.desc": "Damckell - Heat Handler",
+      "item.the_extras.rock_candy_green": "Green Rock Candy",
+      "item.carnelian.nature_gem": "Nature Gem",
+      "item.magiccraft.carnelian_crystal": "Carnelian Crystal",
+      "advancements.crystallized.descr": "Get your first Carnelian Crystal! There are rumors of one even harder to get...",
+      "item.carnelian.condensed_carnelian_armor_boots": "Condensed Carnelian Boots",
+      "block.carnelian.void_brick_slab": "Void Brick Slab",
+      "item.carnelian.rock_candy_blue": "Blue Rock Candy",
+      "item.the_extras.rock_candy_red": "Red Rock Candy",
+      "advancements.the_void_stares_back.descr": "Got Void Essence",
+      "block.carnelian.deep_stone_brick_stairs": "Deep Stone Brick Stairs",
+      "item.carnelian.condensed_carnelian_armor_chestplate": "Condensed Carnelian Body",
+      "block.carnelian.void_essence_ore": "Void Essence Ore",
+      "item.the_extras.carnelian_shard_axe": "Carnelian Shard Axe",
+      "advancements.really_deep.title": "Really Deep",
+      "item.carnelian.carnelian_crystal": "Carnelian Crystal",
+      "item.magiccraft.carnelian_shard_sword": "Carnelian Shard Sword",
+      "item.carnelian.carnelian_shard_armor_chestplate": "Carnelian Shard Body",
+      "block.magiccraft.carnelian_block": "Carnelian Block",
+      "block.magiccraft.carnelian_ore": "Carnelian Ore",
+      "block.carnelian.void_brick_stairs": "Void Brick Stairs",
+      "item.carnelian.carnelian_crystal_pickaxe": "Carnelian Crystal Pickaxe",
+      "block.carnelian.smooth_void_stone_slab": "Void Stone Slab",
+      "item.the_extras.rock_candy_blue": "Blue Rock Candy",
+      "advancements.flame_on.title": "Flame On",
+      "block.carnelian.carnelian_brick_stairs": "Carnelian Brick Stairs",
+      "block.carnelian.deep_stone_brick_slab": "Deep Stone Brick Slab",
+      "block.the_extras.rock_candy_ore": "Rock Candy Ore",
+      "advancements.natures_call.descr": "Craft a Nature Wand",
+      "item.magiccraft.rock_candy_purple": "Purple Rock Candy",
+      "item.carnelian.music_disc_water.desc": "Damckell - Water",
+      "item.magiccraft.frost_wand": "Frost Wand",
+      "item.carnelian.music_disc_water_retro.desc": "Damckell - Water Retro",
+      "item.carnelian.void_gem": "Void Gem",
+      "item.carnelian.carnelian_crystal_armor_helmet": "Carnelian Crystal Helmet",
+      "advancements.how_did_it_grow.title": "How Did It Grow?",
+      "item.the_extras.carnelian_shard": "Carnelian Shard",
+      "item.magiccraft.carnelian_shard_pickaxe": "Carnelian Shard Pickaxe",
+      "item.the_extras.condensed_carnelian_shovel": "Condensed Carnelian Sword",
+      "item.the_extras.carnelian_shard_hoe": "Carnelian Shard Hoe",
+      "item.carnelian.carnelian_shard_sword": "Carnelian Shard Sword",
+      "item.the_extras.rock_candy_orange": "Orange Rock Candy",
+      "advancements.vwoop.title": "*vwoop*",
+      "item.carnelian.void_essence": "Void Essence",
+      "item.carnelian.frost_wand": "Frost Wand",
+      "item.carnelian.carnelian_crystal_sword": "Carnelian Crystal Sword",
+      "item.carnelian.music_disc_heat_handler_retro.desc": "Damckell - Heat Handler Retro",
+      "block.carnelian.carnelian_block": "Carnelian Block",
+      "subtitles.music_disc_heat_handler_retro": "Music",
+      "item.the_extras.carnelian_crystal_hoe": "Carnelian Crystal Sword",
+      "advancements.dense_as_a_something.descr": "Achieved the highest tier of Carnelian!",
+      "advancements.vwoop.descr": "Craft a Void Wand",
+      "item.magiccraft.carnelian_shard_shovel": "Carnelian Shard Shovel",
+      "item.carnelian.carnelian_crystal_armor_chestplate": "Carnelian Crystal Body",
+      "item.carnelian.carnelian_crystal_armor_leggings": "Carnelian Crystal Leggings",
+      "item.the_extras.condensed_carnelian_axe": "Condensed Carnelian Sword",
+      "item.carnelian.music_disc_heat_handler": "Music Disc",
+      "item.carnelian.carnelian_shard_shovel": "Carnelian Shard Shovel",
+      "item.carnelian.rock_candy_purple": "Purple Rock Candy",
+      "item.carnelian.condensed_carnelian_sword": "Condensed Carnelian Sword",
+      "advancements.natures_call.title": "Nature\u0027s Call",
+      "subtitles.music_disc_heat_handler": "Music",
+      "item.carnelian.rock_candy_green": "Green Rock Candy",
+      "item.the_extras.carnelian_crystal_shovel": "Carnelian Crystal Sword",
+      "advancements.the_void_stares_back.title": "The Void Stares Back",
+      "block.the_extras.carnelian_ore": "Carnelian Ore",
+      "block.carnelian.overgrowth": "Overgrowth",
+      "item.the_extras.carnelian_shard_pickaxe": "Carnelian Shard Pickaxe",
+      "advancements.really_deep.descr": "Got a Deep Stone",
+      "block.carnelian.deep_stone_bricks": "Deep Stone Bricks",
+      "block.carnelian.smooth_overgrowth_stone_slab": "Overgrowth Stone Slab",
+      "advancements.flame_on.descr": "Craft a Flame Wand",
+      "item.carnelian.condensed_carnelian_armor_helmet": "Condensed Carnelian Helmet",
+      "item.carnelian.music_disc_water_retro": "Music Disc",
+      "item.the_extras.carnelian_shard_shovel": "Carnelian Shard Shovel",
+      "block.the_extras.carnelian_block": "Carnelian Block",
+      "block.carnelian.deep_stone_ore": "Deep Stone Ore",
+      "block.carnelian.carnelian_brick_slab": "Carnelian Brick Slab",
+      "item.carnelian.music_disc_heat_handler_retro": "Music Disc",
+      "block.carnelian.void_bricks": "Void Bricks",
+      "advancements.crystallized.title": "Crystallized",
+      "item.carnelian.rock_candy_orange": "Orange Rock Candy",
+      "block.carnelian.overgrowth_brick_stairs": "Overgrowth Brick Stairs",
+      "item.carnelian.carnelian_shard_armor_leggings": "Carnelian Shard Leggings",
+      "item.carnelian.carnelian_shard_hoe": "Carnelian Shard Hoe",
+      "block.carnelian.smooth_deep_stone": "Smooth Deep Stone",
+      "item.magiccraft.rock_candy_blue": "Blue Rock Candy",
+      "item.carnelian.carnelian_shard": "Carnelian Shard",
+      "item.carnelian.condensed_carnelian": "Condensed Carnelian",
+      "item.magiccraft.rock_candy_red": "Red Rock Candy",
+      "item.the_extras.flame_wand": "Flame Wand",
+      "block.carnelian.smooth_void_stone": "Smooth Void Stone",
+      "item.carnelian.condensed_carnelian_armor_leggings": "Condensed Carnelian Leggings",
+      "item.the_extras.condensed_carnelian_hoe": "Condensed Carnelian Sword",
+      "item.the_extras.frost_wand": "Frost Wand",
+      "block.carnelian.smooth_deep_stone_slab": "Deep Stone Slab",
+      "item.carnelian.carnelian_shard_axe": "Carnelian Shard Axe",
+      "item.carnelian.frost_gem": "Frost Gem",
+      "advancements.first_carnelian.title": "Carnelian",
+      "item.magiccraft.flame_wand": "Flame Wand",
+      "item.carnelian.carnelian_shard_armor_boots": "Carnelian Shard Boots",
+      "item.carnelian.flame_wand": "Flame Wand",
+      "advancements.dense_as_a_something.title": "Dense As A...Something",
+      "item.magiccraft.condensed_carnelian": "Condensed Carnelian",
+      "block.carnelian.carnelian_ore": "Carnelian Ore",
+      "item.carnelian.condensed_carnelian_axe": "Condensed Carnelian Axe",
+      "item.the_extras.carnelian_crystal_axe": "Carnelian Crystal Sword",
+      "itemGroup.tabmagic_craft": "Carnelian",
+      "block.carnelian.overgrowth_bricks": "Overgrowth Bricks",
+      "advancements.getting_frosty.title": "Getting Frosty",
+      "item.carnelian.condensed_carnelian_pickaxe": "Condensed Carnelian Pickaxe",
+      "item.carnelian.carnelian_crystal_hoe": "Carnelian Crystal Hoe",
+      "item.carnelian.rock_candy_red": "Red Rock Candy",
+      "item.carnelian.carnelian_crystal_axe": "Carnelian Crystal Axe",
+      "subtitles.music_disc_water_retro": "Music",
+      "item.carnelian.carnelian_shard_pickaxe": "Carnelian Shard Pickaxe",
+      "item.carnelian.deep_stone": "Deep Stone",
+      "item.the_extras.carnelian_crystal_pickaxe": "Carnelian Crystal Sword",
+      "block.carnelian.smooth_overgrowth_stone": "Smooth Overgrowth Stone",
+      "item.magiccraft.rock_candy_green": "Green Rock Candy",
+      "block.carnelian.smooth_carnelian_stone": "Smooth Carnelian Stone",
+      "block.carnelian.overgrowth_brick_slab": "Overgrowth Brick Slab",
+      "advancements.how_did_it_grow.descr": "Got Overgrowth",
+      "item.magiccraft.carnelian_shard": "Carnelian Shard",
+      "item.magiccraft.carnelian_crystal_sword": "Carnelian Crystal Sword",
+      "block.carnelian.rock_candy_ore": "Rock Candy Ore",
+      "item.magiccraft.carnelian_shard_hoe": "Carnelian Shard Hoe",
+      "item.the_extras.carnelian_shard_sword": "Carnelian Shard Sword",
+      "item.carnelian.flame_gem": "Flame Gem",
+      "item.carnelian.void_wand": "Void Wand",
+      "item.the_extras.condensed_carnelian_sword": "Condensed Carnelian Sword",
+      "subtitles.music_disc_water": "Music",
+      "block.carnelian.smooth_carnelian_stone_slab": "Carnelian Stone Slab",
+      "item.magiccraft.rock_candy_orange": "Orange Rock Candy",
+      "item.carnelian.music_disc_water": "Music Disc",
+      "item.magiccraft.carnelian_shard_axe": "Carnelian Shard Axe",
+      "item.carnelian.carnelian_crystal_armor_boots": "Carnelian Crystal Boots",
+      "advancements.first_carnelian.descr": "Picked up your first Carnelian Shard! Breaking with a Diamond Pickaxe or higher gives Crystals.",
+      "item.the_extras.condensed_carnelian": "Condensed Carnelian",
+      "item.the_extras.rock_candy_purple": "Purple Rock Candy",
+      "item.the_extras.carnelian_crystal_sword": "Carnelian Crystal Sword",
+      "block.magiccraft.rock_candy_ore": "Rock Candy Ore",
+      "item.carnelian.nature_wand": "Nature Wand",
+      "item.carnelian.condensed_carnelian_shovel": "Condensed Carnelian Shovel",
+      "item.carnelian.carnelian_crystal_shovel": "Carnelian Crystal Shovel",
+      "item.carnelian.carnelian_shard_armor_helmet": "Carnelian Shard Helmet",
+      "item.the_extras.condensed_carnelian_pickaxe": "Condensed Carnelian Sword",
+      "item.carnelian.condensed_carnelian_hoe": "Condensed Carnelian Hoe",
+      "advancements.getting_frosty.descr": "Craft a Frost Wand",
+      "block.carnelian.carnelian_bricks": "Carnelian Bricks"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "carnelian",
+    "modName": "Carnelian",
+    "version": "1.5.3",
+    "description": "A simple mod that adds such things as rock candy, wands with magical properties, a couple of new color stone variants, and a new gem called Carnelian.",
+    "author": "Damckell",
+    "websiteURL": "https://www.youtube.com/watch?v\u003ddQw4w9WgXcQ",
+    "license": "All Rights Reserved",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "modPicture": "pack",
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.16.4",
+    "credits": "MCreator, BeepBox, Aseprite, and my friends who told me I could!",
+    "modElementsPackage": "net.mcreator.carnelian",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000652319
+}

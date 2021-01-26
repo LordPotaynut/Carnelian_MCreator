@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "carnelian:carnelian_crystal_armor_chestplate"
+  },
+  "addition": {
+    "item": "carnelian:condensed_carnelian"
+  },
+  "result": {
+    "item": "carnelian:condensed_carnelian_armor_chestplate"
+  }
+}

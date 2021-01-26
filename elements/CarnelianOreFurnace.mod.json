@@ -1,0 +1,20 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 1.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "carnelian_shard_smelt",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:CarnelianOre"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:CarnelianShard"
+    },
+    "name": "carnelian_ore_furnace",
+    "namespace": "mod"
+  }
+}
