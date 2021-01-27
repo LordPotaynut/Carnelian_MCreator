@@ -1,0 +1,16 @@
+{
+  "group": "carnelian",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:glass"
+    },
+    {
+      "item": "carnelian:iron_plating"
+    }
+  ],
+  "result": {
+    "item": "carnelian:iron_framed_glass",
+    "count": 2
+  }
+}
