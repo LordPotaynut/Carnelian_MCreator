@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "carnelian:blocks/iron_plate",
+    "up": "carnelian:blocks/contained_organic_top",
+    "north": "carnelian:blocks/contained_organic",
+    "east": "carnelian:blocks/contained_organic",
+    "south": "carnelian:blocks/contained_organic",
+    "west": "carnelian:blocks/contained_organic",
+    "particle": "carnelian:blocks/iron_plate"
+  }
+}
