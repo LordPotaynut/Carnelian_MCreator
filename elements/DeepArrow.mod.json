@@ -3,9 +3,9 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "deep_stone-new",
+    "texture": "deep_stone_arrow",
     "customModelName": "Normal",
-    "name": "Deep Stone",
+    "name": "Deep Arrow",
     "rarity": "COMMON",
     "creativeTab": {
       "value": "CUSTOM:MagicCraft"

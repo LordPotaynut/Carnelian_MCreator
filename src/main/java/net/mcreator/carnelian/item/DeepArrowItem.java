@@ -12,11 +12,11 @@ import net.mcreator.carnelian.itemgroup.MagicCraftItemGroup;
 import net.mcreator.carnelian.CarnelianModElements;
 
 @CarnelianModElements.ModElement.Tag
-public class DeepStoneItem extends CarnelianModElements.ModElement {
-	@ObjectHolder("carnelian:deep_stone")
+public class DeepArrowItem extends CarnelianModElements.ModElement {
+	@ObjectHolder("carnelian:deep_arrow")
 	public static final Item block = null;
-	public DeepStoneItem(CarnelianModElements instance) {
-		super(instance, 71);
+	public DeepArrowItem(CarnelianModElements instance) {
+		super(instance, 183);
 	}
 
 	@Override
@@ -26,7 +26,7 @@ public class DeepStoneItem extends CarnelianModElements.ModElement {
 	public static class ItemCustom extends Item {
 		public ItemCustom() {
 			super(new Item.Properties().group(MagicCraftItemGroup.tab).maxStackSize(64).rarity(Rarity.COMMON));
-			setRegistryName("deep_stone");
+			setRegistryName("deep_arrow");
 		}
 
 		@Override
