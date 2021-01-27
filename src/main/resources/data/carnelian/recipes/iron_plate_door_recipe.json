@@ -1,0 +1,33 @@
+{
+  "group": "iron_plate_door",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:iron_plating"
+    },
+    "1": {
+      "item": "carnelian:iron_plating"
+    },
+    "2": {
+      "item": "carnelian:iron_plating"
+    },
+    "3": {
+      "item": "carnelian:iron_plating"
+    },
+    "4": {
+      "item": "carnelian:iron_plating"
+    },
+    "5": {
+      "item": "carnelian:iron_plating"
+    }
+  },
+  "result": {
+    "item": "carnelian:iron_plate_door",
+    "count": 3
+  }
+}

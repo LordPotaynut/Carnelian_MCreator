@@ -2162,6 +2162,24 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_framed_glass_recipe"
+    },
+    {
+      "name": "IronPlateDoor",
+      "type": "block",
+      "sortid": 186,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_plate_door"
+    },
+    {
+      "name": "IronPlateDoorRecipe",
+      "type": "recipe",
+      "sortid": 187,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_plate_door_recipe"
     }
   ],
   "variable_elements": [],
@@ -2220,6 +2238,7 @@
       "advancements.really_deep.title": "Really Deep",
       "item.carnelian.carnelian_crystal": "Carnelian Crystal",
       "item.magiccraft.carnelian_shard_sword": "Carnelian Shard Sword",
+      "block.carnelian.iron_plate_door": "Iron Plate Door",
       "item.carnelian.carnelian_shard_armor_chestplate": "Carnelian Shard Body",
       "block.magiccraft.carnelian_block": "Carnelian Block",
       "block.magiccraft.carnelian_ore": "Carnelian Ore",
