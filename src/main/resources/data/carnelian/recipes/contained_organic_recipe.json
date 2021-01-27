@@ -1,0 +1,42 @@
+{
+  "group": "contained_organic",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:iron_plating"
+    },
+    "1": {
+      "item": "minecraft:bone_meal"
+    },
+    "2": {
+      "item": "carnelian:iron_plating"
+    },
+    "3": {
+      "item": "minecraft:glass_pane"
+    },
+    "4": {
+      "item": "carnelian:overgrowth"
+    },
+    "5": {
+      "item": "minecraft:glass_pane"
+    },
+    "6": {
+      "item": "carnelian:iron_plating"
+    },
+    "7": {
+      "item": "carnelian:iron_plating"
+    },
+    "8": {
+      "item": "carnelian:iron_plating"
+    }
+  },
+  "result": {
+    "item": "carnelian:contained_organic",
+    "count": 2
+  }
+}

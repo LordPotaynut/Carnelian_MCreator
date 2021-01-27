@@ -1,0 +1,46 @@
+{
+  "_fv": 15,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 2,
+    "group": "contained_organic",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:IronPlating"
+      },
+      {
+        "value": "Items.DYE#15"
+      },
+      {
+        "value": "CUSTOM:IronPlating"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:Overgrowth"
+      },
+      {
+        "value": "Blocks.GLASS_PANE"
+      },
+      {
+        "value": "CUSTOM:IronPlating"
+      },
+      {
+        "value": "CUSTOM:IronPlating"
+      },
+      {
+        "value": "CUSTOM:IronPlating"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:ContainedOrganic"
+    },
+    "name": "contained_organic_recipe",
+    "namespace": "mod"
+  }
+}

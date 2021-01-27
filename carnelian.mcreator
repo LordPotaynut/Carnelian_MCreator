@@ -2099,6 +2099,33 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "contained_organic"
+    },
+    {
+      "name": "IronPlating",
+      "type": "block",
+      "sortid": 179,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_plating"
+    },
+    {
+      "name": "IronPlatingRecipe",
+      "type": "recipe",
+      "sortid": 180,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_plating_recipe"
+    },
+    {
+      "name": "ContainedOrganicRecipe",
+      "type": "recipe",
+      "sortid": 181,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "contained_organic_recipe"
     }
   ],
   "variable_elements": [],
@@ -2286,6 +2313,7 @@
       "item.carnelian.condensed_carnelian_shovel": "Condensed Carnelian Shovel",
       "item.carnelian.carnelian_crystal_shovel": "Carnelian Crystal Shovel",
       "item.carnelian.carnelian_shard_armor_helmet": "Carnelian Shard Helmet",
+      "block.carnelian.iron_plating": "Iron Plating",
       "item.the_extras.condensed_carnelian_pickaxe": "Condensed Carnelian Sword",
       "item.carnelian.condensed_carnelian_hoe": "Condensed Carnelian Hoe",
       "advancements.getting_frosty.descr": "Craft a Frost Wand",
