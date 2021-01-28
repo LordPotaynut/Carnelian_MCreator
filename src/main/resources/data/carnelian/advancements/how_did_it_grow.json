@@ -25,7 +25,8 @@
       "carnelian:smooth_overgrowth_stone_slab_recipe",
       "carnelian:overgrowth_brick_stairs_stonecutter",
       "carnelian:overgrowth_brick_slab_stonecutter",
-      "carnelian:smooth_overgrowth_stone_slab_stonecutter"
+      "carnelian:smooth_overgrowth_stone_slab_stonecutter",
+      "carnelian:contained_organic_recipe"
     ]
   },
   "parent": "carnelian:first_carnelian"

@@ -110,6 +110,6 @@ public class CarnelianOreBlock extends CarnelianModElements.ModElement {
 			protected IRuleTestType<?> getType() {
 				return IRuleTestType.BLOCK_MATCH;
 			}
-		}, block.getDefaultState(), 6)).range(32).square().func_242731_b(2));
+		}, block.getDefaultState(), 8)).range(32).square().func_242731_b(2));
 	}
 }

@@ -2180,6 +2180,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_plate_door_recipe"
+    },
+    {
+      "name": "IronPlatingAdvancement",
+      "type": "achievement",
+      "sortid": 188,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_plating_advancement"
     }
   ],
   "variable_elements": [],
@@ -2345,6 +2354,7 @@
       "block.carnelian.smooth_overgrowth_stone": "Smooth Overgrowth Stone",
       "item.magiccraft.rock_candy_green": "Green Rock Candy",
       "block.carnelian.smooth_carnelian_stone": "Smooth Carnelian Stone",
+      "advancements.iron_plating_advancement.descr": "Placeholder Description",
       "block.carnelian.overgrowth_brick_slab": "Overgrowth Brick Slab",
       "advancements.how_did_it_grow.descr": "Got Overgrowth",
       "item.magiccraft.carnelian_shard": "Carnelian Shard",
@@ -2355,6 +2365,7 @@
       "item.carnelian.flame_gem": "Flame Gem",
       "item.carnelian.void_wand": "Void Wand",
       "item.the_extras.condensed_carnelian_sword": "Condensed Carnelian Sword",
+      "advancements.iron_plating_advancement.title": "Iron Plating Advancement",
       "subtitles.music_disc_water": "Music",
       "block.carnelian.smooth_carnelian_stone_slab": "Carnelian Stone Slab",
       "item.magiccraft.rock_candy_orange": "Orange Rock Candy",
