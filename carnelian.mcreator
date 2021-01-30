@@ -2131,7 +2131,7 @@
       "name": "WoodShurikenRemoveOneOfStack",
       "type": "procedure",
       "sortid": 184,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_shuriken_remove_one_of_stack",
@@ -2161,7 +2161,7 @@
       "name": "WoodShuriken",
       "type": "gun",
       "sortid": 184,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_shuriken"
@@ -2170,7 +2170,7 @@
       "name": "IronFramedGlass",
       "type": "block",
       "sortid": 184,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_framed_glass"
@@ -2188,7 +2188,7 @@
       "name": "IronPlateDoor",
       "type": "block",
       "sortid": 186,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_plate_door"
