@@ -21,7 +21,8 @@
       "SmoothOvergrowthStoneSlabRecipe",
       "OvergrowthBrickStairsStonecutter",
       "OvergrowthBrickSlabStonecutter",
-      "SmoothOvergrowthStoneSlabStonecutter"
+      "SmoothOvergrowthStoneSlabStonecutter",
+      "ContainedOrganicRecipe"
     ],
     "rewardFunction": "No function",
     "rewardXP": 1,

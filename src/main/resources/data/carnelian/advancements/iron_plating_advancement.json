@@ -1,0 +1,27 @@
+{
+  "criteria": {
+    "iron_plating_advancement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "minecraft:iron_ingot",
+            "count": {
+              "min": 1,
+              "max": 2624
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1,
+    "recipes": [
+      "carnelian:iron_plating_recipe",
+      "unknown_element",
+      "unknown_element"
+    ]
+  },
+  "parent": "carnelian:first_carnelian"
+}
