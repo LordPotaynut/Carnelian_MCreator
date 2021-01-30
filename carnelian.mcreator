@@ -2429,6 +2429,15 @@
           }
         ]
       }
+    },
+    {
+      "name": "IronFramedGlassPaneRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_framed_glass_pane_recipe"
     }
   ],
   "variable_elements": [],
