@@ -22,13 +22,9 @@ import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
-import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
 import net.minecraft.entity.player.ServerPlayerEntity;
 import net.minecraft.entity.player.PlayerEntity;
-import net.minecraft.entity.ai.attributes.Attributes;
-import net.minecraft.entity.ai.attributes.AttributeModifier;
-import net.minecraft.entity.ai.attributes.Attribute;
 import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
@@ -43,8 +39,8 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 
 import net.mcreator.carnelian.procedures.WoodShurikenRemoveOneOfStackProcedure;
-import net.mcreator.carnelian.procedures.WoodShurikenDropChanceProcedure;
-import net.mcreator.carnelian.procedures.WoodShurikenBulletHitsBlockProcedure;
+import net.mcreator.carnelian.procedures.IronShurikenDropChanceProcedure;
+import net.mcreator.carnelian.procedures.IronShurikenBulletHitsBlockProcedure;
 import net.mcreator.carnelian.itemgroup.MagicCraftItemGroup;
 import net.mcreator.carnelian.CarnelianModElements;
 
@@ -55,17 +51,14 @@ import java.util.HashMap;
 import com.mojang.blaze3d.vertex.IVertexBuilder;
 import com.mojang.blaze3d.matrix.MatrixStack;
 
-import com.google.common.collect.Multimap;
-import com.google.common.collect.ImmutableMultimap;
-
 @CarnelianModElements.ModElement.Tag
-public class WoodShurikenItem extends CarnelianModElements.ModElement {
-	@ObjectHolder("carnelian:wood_shuriken")
+public class IronShurikenItem extends CarnelianModElements.ModElement {
+	@ObjectHolder("carnelian:iron_shuriken")
 	public static final Item block = null;
-	@ObjectHolder("carnelian:entitybulletwood_shuriken")
+	@ObjectHolder("carnelian:entitybulletiron_shuriken")
 	public static final EntityType arrow = null;
-	public WoodShurikenItem(CarnelianModElements instance) {
-		super(instance, 184);
+	public IronShurikenItem(CarnelianModElements instance) {
+		super(instance, 190);
 	}
 
 	@Override
@@ -73,7 +66,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletwood_shuriken").setRegistryName("entitybulletwood_shuriken"));
+				.size(0.5f, 0.5f)).build("entitybulletiron_shuriken").setRegistryName("entitybulletiron_shuriken"));
 	}
 
 	@Override
@@ -84,7 +77,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
 			super(new Item.Properties().group(MagicCraftItemGroup.tab).maxStackSize(16));
-			setRegistryName("wood_shuriken");
+			setRegistryName("iron_shuriken");
 		}
 
 		@Override
@@ -104,20 +97,6 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		}
 
 		@Override
-		public Multimap<Attribute, AttributeModifier> getAttributeModifiers(EquipmentSlotType slot) {
-			if (slot == EquipmentSlotType.MAINHAND) {
-				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
-				builder.putAll(super.getAttributeModifiers(slot));
-				builder.put(Attributes.ATTACK_DAMAGE,
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Ranged item modifier", (double) 0, AttributeModifier.Operation.ADDITION));
-				builder.put(Attributes.ATTACK_SPEED,
-						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Ranged item modifier", -2.4, AttributeModifier.Operation.ADDITION));
-				return builder.build();
-			}
-			return super.getAttributeModifiers(slot);
-		}
-
-		@Override
 		public void onPlayerStoppedUsing(ItemStack itemstack, World world, LivingEntity entityLiving, int timeLeft) {
 			if (!world.isRemote && entityLiving instanceof ServerPlayerEntity) {
 				ServerPlayerEntity entity = (ServerPlayerEntity) entityLiving;
@@ -125,7 +104,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.5f, 4, 0);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 1f, 7, 1);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 					{
@@ -165,7 +144,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(WoodShurikenItem.block, (int) (1));
+			return new ItemStack(IronShurikenItem.block, (int) (1));
 		}
 
 		@Override
@@ -187,7 +166,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				WoodShurikenDropChanceProcedure.executeProcedure($_dependencies);
+				IronShurikenDropChanceProcedure.executeProcedure($_dependencies);
 			}
 		}
 
@@ -206,7 +185,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				WoodShurikenDropChanceProcedure.executeProcedure($_dependencies);
+				IronShurikenDropChanceProcedure.executeProcedure($_dependencies);
 			}
 		}
 
@@ -225,7 +204,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					WoodShurikenBulletHitsBlockProcedure.executeProcedure($_dependencies);
+					IronShurikenBulletHitsBlockProcedure.executeProcedure($_dependencies);
 				}
 				this.remove();
 			}
@@ -233,7 +212,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 	}
 
 	public static class CustomRender extends EntityRenderer<ArrowCustomEntity> {
-		private static final ResourceLocation texture = new ResourceLocation("carnelian:textures/wooden_shuriken_2.png");
+		private static final ResourceLocation texture = new ResourceLocation("carnelian:textures/iron_shuriken.png");
 		public CustomRender(EntityRendererManager renderManager) {
 			super(renderManager);
 		}
@@ -307,7 +286,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
 		world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
-				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.dispenser.launch")),
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
 				SoundCategory.PLAYERS, 1, 1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
 		return entityarrow;
 	}
@@ -317,17 +296,17 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		double d0 = target.getPosY() + (double) target.getEyeHeight() - 1.1;
 		double d1 = target.getPosX() - entity.getPosX();
 		double d3 = target.getPosZ() - entity.getPosZ();
-		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 0.5f * 2, 12.0F);
+		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 1f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(4);
-		entityarrow.setKnockbackStrength(0);
+		entityarrow.setDamage(7);
+		entityarrow.setKnockbackStrength(1);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
 		entity.world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
-				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.dispenser.launch")),
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
 				SoundCategory.PLAYERS, 1, 1f / (new Random().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}

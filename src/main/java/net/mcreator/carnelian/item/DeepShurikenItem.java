@@ -21,6 +21,7 @@ import net.minecraft.util.ActionResult;
 import net.minecraft.network.IPacket;
 import net.minecraft.item.UseAction;
 import net.minecraft.item.ItemStack;
+import net.minecraft.item.ItemGroup;
 import net.minecraft.item.Item;
 import net.minecraft.inventory.EquipmentSlotType;
 import net.minecraft.entity.projectile.AbstractArrowEntity;
@@ -43,9 +44,8 @@ import net.minecraft.client.renderer.RenderType;
 import net.minecraft.client.renderer.IRenderTypeBuffer;
 
 import net.mcreator.carnelian.procedures.WoodShurikenRemoveOneOfStackProcedure;
-import net.mcreator.carnelian.procedures.WoodShurikenDropChanceProcedure;
-import net.mcreator.carnelian.procedures.WoodShurikenBulletHitsBlockProcedure;
-import net.mcreator.carnelian.itemgroup.MagicCraftItemGroup;
+import net.mcreator.carnelian.procedures.DeepShurikenDropChanceProcedure;
+import net.mcreator.carnelian.procedures.DeepShurikenBulletHitsBlockProcedure;
 import net.mcreator.carnelian.CarnelianModElements;
 
 import java.util.Random;
@@ -59,13 +59,13 @@ import com.google.common.collect.Multimap;
 import com.google.common.collect.ImmutableMultimap;
 
 @CarnelianModElements.ModElement.Tag
-public class WoodShurikenItem extends CarnelianModElements.ModElement {
-	@ObjectHolder("carnelian:wood_shuriken")
+public class DeepShurikenItem extends CarnelianModElements.ModElement {
+	@ObjectHolder("carnelian:deep_shuriken")
 	public static final Item block = null;
-	@ObjectHolder("carnelian:entitybulletwood_shuriken")
+	@ObjectHolder("carnelian:entitybulletdeep_shuriken")
 	public static final EntityType arrow = null;
-	public WoodShurikenItem(CarnelianModElements instance) {
-		super(instance, 184);
+	public DeepShurikenItem(CarnelianModElements instance) {
+		super(instance, 194);
 	}
 
 	@Override
@@ -73,7 +73,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		elements.items.add(() -> new ItemRanged());
 		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
 				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletwood_shuriken").setRegistryName("entitybulletwood_shuriken"));
+				.size(0.5f, 0.5f)).build("entitybulletdeep_shuriken").setRegistryName("entitybulletdeep_shuriken"));
 	}
 
 	@Override
@@ -83,8 +83,8 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
-			super(new Item.Properties().group(MagicCraftItemGroup.tab).maxStackSize(16));
-			setRegistryName("wood_shuriken");
+			super(new Item.Properties().group(ItemGroup.COMBAT).maxStackSize(16));
+			setRegistryName("deep_shuriken");
 		}
 
 		@Override
@@ -109,7 +109,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 				ImmutableMultimap.Builder<Attribute, AttributeModifier> builder = ImmutableMultimap.builder();
 				builder.putAll(super.getAttributeModifiers(slot));
 				builder.put(Attributes.ATTACK_DAMAGE,
-						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Ranged item modifier", (double) 0, AttributeModifier.Operation.ADDITION));
+						new AttributeModifier(ATTACK_DAMAGE_MODIFIER, "Ranged item modifier", (double) 3, AttributeModifier.Operation.ADDITION));
 				builder.put(Attributes.ATTACK_SPEED,
 						new AttributeModifier(ATTACK_SPEED_MODIFIER, "Ranged item modifier", -2.4, AttributeModifier.Operation.ADDITION));
 				return builder.build();
@@ -125,7 +125,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 				double y = entity.getPosY();
 				double z = entity.getPosZ();
 				if (true) {
-					ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.5f, 4, 0);
+					ArrowCustomEntity entityarrow = shoot(world, entity, random, 0.5f, 6, 1);
 					itemstack.damageItem(1, entity, e -> e.sendBreakAnimation(entity.getActiveHand()));
 					entityarrow.pickupStatus = AbstractArrowEntity.PickupStatus.DISALLOWED;
 					{
@@ -165,7 +165,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		@Override
 		@OnlyIn(Dist.CLIENT)
 		public ItemStack getItem() {
-			return new ItemStack(WoodShurikenItem.block, (int) (1));
+			return new ItemStack(DeepShurikenItem.block, (int) (1));
 		}
 
 		@Override
@@ -187,7 +187,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				WoodShurikenDropChanceProcedure.executeProcedure($_dependencies);
+				DeepShurikenDropChanceProcedure.executeProcedure($_dependencies);
 			}
 		}
 
@@ -206,7 +206,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				WoodShurikenDropChanceProcedure.executeProcedure($_dependencies);
+				DeepShurikenDropChanceProcedure.executeProcedure($_dependencies);
 			}
 		}
 
@@ -225,7 +225,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 					$_dependencies.put("y", y);
 					$_dependencies.put("z", z);
 					$_dependencies.put("world", world);
-					WoodShurikenBulletHitsBlockProcedure.executeProcedure($_dependencies);
+					DeepShurikenBulletHitsBlockProcedure.executeProcedure($_dependencies);
 				}
 				this.remove();
 			}
@@ -233,7 +233,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 	}
 
 	public static class CustomRender extends EntityRenderer<ArrowCustomEntity> {
-		private static final ResourceLocation texture = new ResourceLocation("carnelian:textures/wooden_shuriken_2.png");
+		private static final ResourceLocation texture = new ResourceLocation("carnelian:textures/deep_stone_shuriken.png");
 		public CustomRender(EntityRendererManager renderManager) {
 			super(renderManager);
 		}
@@ -307,7 +307,7 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
 		world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
-				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.dispenser.launch")),
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
 				SoundCategory.PLAYERS, 1, 1f / (random.nextFloat() * 0.5f + 1) + (power / 2));
 		return entityarrow;
 	}
@@ -319,15 +319,15 @@ public class WoodShurikenItem extends CarnelianModElements.ModElement {
 		double d3 = target.getPosZ() - entity.getPosZ();
 		entityarrow.shoot(d1, d0 - entityarrow.getPosY() + (double) MathHelper.sqrt(d1 * d1 + d3 * d3) * 0.2F, d3, 0.5f * 2, 12.0F);
 		entityarrow.setSilent(true);
-		entityarrow.setDamage(4);
-		entityarrow.setKnockbackStrength(0);
+		entityarrow.setDamage(6);
+		entityarrow.setKnockbackStrength(1);
 		entityarrow.setIsCritical(false);
 		entity.world.addEntity(entityarrow);
 		double x = entity.getPosX();
 		double y = entity.getPosY();
 		double z = entity.getPosZ();
 		entity.world.playSound((PlayerEntity) null, (double) x, (double) y, (double) z,
-				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.dispenser.launch")),
+				(net.minecraft.util.SoundEvent) ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.arrow.shoot")),
 				SoundCategory.PLAYERS, 1, 1f / (new Random().nextFloat() * 0.5f + 1));
 		return entityarrow;
 	}

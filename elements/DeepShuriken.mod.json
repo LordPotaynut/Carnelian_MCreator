@@ -3,12 +3,12 @@
   "_type": "gun",
   "definition": {
     "renderType": 0,
-    "texture": "wooden_ninja_star",
+    "texture": "deep_stone_ninja_star",
     "customModelName": "Normal",
-    "name": "Wood Shuriken",
+    "name": "Deep Shuriken",
     "specialInfo": [],
     "creativeTab": {
-      "value": "CUSTOM:MagicCraft"
+      "value": "COMBAT"
     },
     "stackSize": 16,
     "ammoItem": {
@@ -17,33 +17,33 @@
     "shootConstantly": false,
     "usageCount": 0,
     "actionSound": {
-      "value": "block.dispenser.launch"
+      "value": "entity.arrow.shoot"
     },
     "hasGlow": false,
     "animation": "spear",
     "enableMeleeDamage": true,
-    "damageVsEntity": 2.0,
+    "damageVsEntity": 5.0,
     "onRangedItemUsed": {
       "name": "WoodShurikenRemoveOneOfStack"
     },
     "bulletPower": 0.5,
-    "bulletDamage": 4.0,
-    "bulletKnockback": 0,
+    "bulletDamage": 6.0,
+    "bulletKnockback": 1,
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": "CUSTOM:WoodShuriken"
+      "value": "CUSTOM:DeepShuriken"
     },
     "bulletModel": "Modelcustom_model",
-    "customBulletModelTexture": "wooden_shuriken_2.png",
+    "customBulletModelTexture": "deep_stone_shuriken.png",
     "onBulletHitsBlock": {
-      "name": "WoodShurikenBulletHitsBlock"
+      "name": "DeepShurikenBulletHitsBlock"
     },
     "onBulletHitsPlayer": {
-      "name": "WoodShurikenDropChance"
+      "name": "DeepShurikenDropChance"
     },
     "onBulletHitsEntity": {
-      "name": "WoodShurikenDropChance"
+      "name": "DeepShurikenDropChance"
     }
   }
 }

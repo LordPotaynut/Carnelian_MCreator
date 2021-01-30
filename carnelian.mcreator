@@ -2131,7 +2131,7 @@
       "name": "WoodShurikenRemoveOneOfStack",
       "type": "procedure",
       "sortid": 184,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_shuriken_remove_one_of_stack",
@@ -2161,7 +2161,7 @@
       "name": "WoodShuriken",
       "type": "gun",
       "sortid": 184,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "wood_shuriken"
@@ -2170,7 +2170,7 @@
       "name": "IronFramedGlass",
       "type": "block",
       "sortid": 184,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_framed_glass"
@@ -2188,7 +2188,7 @@
       "name": "IronPlateDoor",
       "type": "block",
       "sortid": 186,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_plate_door"
@@ -2210,6 +2210,225 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_plate_door_recipe"
+    },
+    {
+      "name": "IronFramedGlassPane",
+      "type": "block",
+      "sortid": 189,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_framed_glass_pane"
+    },
+    {
+      "name": "IronShuriken",
+      "type": "gun",
+      "sortid": 190,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_shuriken"
+    },
+    {
+      "name": "WoodShurikenBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 191,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_shuriken_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronShurikenBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 192,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_shuriken_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronShurikenRecipe",
+      "type": "recipe",
+      "sortid": 193,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_shuriken_recipe"
+    },
+    {
+      "name": "DeepShuriken",
+      "type": "gun",
+      "sortid": 194,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_shuriken"
+    },
+    {
+      "name": "DeepShurikenBulletHitsBlock",
+      "type": "procedure",
+      "sortid": 195,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_shuriken_bullet_hits_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepShurikenRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_shuriken_recipe"
+    },
+    {
+      "name": "WoodShurikenDropChance",
+      "type": "procedure",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_shuriken_drop_chance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "IronShurikenDropChance",
+      "type": "procedure",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_shuriken_drop_chance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DeepShurikenDropChance",
+      "type": "procedure",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "deep_shuriken_drop_chance",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -2264,9 +2483,12 @@
       "item.carnelian.condensed_carnelian_armor_chestplate": "Condensed Carnelian Body",
       "block.carnelian.void_essence_ore": "Void Essence Ore",
       "item.the_extras.carnelian_shard_axe": "Carnelian Shard Axe",
+      "block.carnelian.iron_framed_glass": "Iron Framed Glass",
       "advancements.really_deep.title": "Really Deep",
+      "item.carnelian.iron_shuriken": "Iron Shuriken",
       "item.carnelian.carnelian_crystal": "Carnelian Crystal",
       "item.magiccraft.carnelian_shard_sword": "Carnelian Shard Sword",
+      "block.carnelian.iron_plate_door": "Iron Plate Door",
       "item.carnelian.carnelian_shard_armor_chestplate": "Carnelian Shard Body",
       "block.magiccraft.carnelian_block": "Carnelian Block",
       "block.magiccraft.carnelian_ore": "Carnelian Ore",
@@ -2302,6 +2524,7 @@
       "item.the_extras.carnelian_crystal_hoe": "Carnelian Crystal Sword",
       "advancements.dense_as_a_something.descr": "Achieved the highest tier of Carnelian!",
       "advancements.vwoop.descr": "Craft a Void Wand",
+      "item.carnelian.deep_shuriken": "Deep Shuriken",
       "item.magiccraft.carnelian_shard_shovel": "Carnelian Shard Shovel",
       "item.carnelian.carnelian_crystal_armor_chestplate": "Carnelian Crystal Body",
       "item.carnelian.carnelian_crystal_armor_leggings": "Carnelian Crystal Leggings",
@@ -2379,11 +2602,13 @@
       "item.magiccraft.carnelian_crystal_sword": "Carnelian Crystal Sword",
       "block.carnelian.rock_candy_ore": "Rock Candy Ore",
       "item.magiccraft.carnelian_shard_hoe": "Carnelian Shard Hoe",
+      "item.carnelian.wood_shuriken": "Wood Shuriken",
       "item.the_extras.carnelian_shard_sword": "Carnelian Shard Sword",
       "item.carnelian.flame_gem": "Flame Gem",
       "item.carnelian.void_wand": "Void Wand",
       "item.the_extras.condensed_carnelian_sword": "Condensed Carnelian Sword",
       "subtitles.music_disc_water": "Music",
+      "block.carnelian.iron_framed_glass_pane": "Iron Framed Glass Pane",
       "block.carnelian.smooth_carnelian_stone_slab": "Carnelian Stone Slab",
       "item.magiccraft.rock_candy_orange": "Orange Rock Candy",
       "item.carnelian.music_disc_water": "Music Disc",
