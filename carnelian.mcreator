@@ -2128,22 +2128,43 @@
       "registry_name": "contained_organic_recipe"
     },
     {
-      "name": "DeepBow",
-      "type": "gun",
-      "sortid": 182,
+      "name": "WoodShurikenRemoveOneOfStack",
+      "type": "procedure",
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "deep_bow"
+      "registry_name": "wood_shuriken_remove_one_of_stack",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      }
     },
     {
-      "name": "DeepArrow",
-      "type": "item",
-      "sortid": 183,
+      "name": "WoodShuriken",
+      "type": "gun",
+      "sortid": 184,
       "compiles": true,
       "locked_code": false,
       "ids": {},
-      "registry_name": "deep_arrow"
+      "registry_name": "wood_shuriken"
+    },
+    {
+      "name": "WoodShurikenRecipe",
+      "type": "recipe",
+      "sortid": 185,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "wood_shuriken_recipe"
     }
   ],
   "variable_elements": [],
@@ -2256,7 +2277,6 @@
       "block.carnelian.deep_stone_bricks": "Deep Stone Bricks",
       "block.carnelian.smooth_overgrowth_stone_slab": "Overgrowth Stone Slab",
       "advancements.flame_on.descr": "Craft a Flame Wand",
-      "item.carnelian.deep_bow": "Deep Bow",
       "item.carnelian.condensed_carnelian_armor_helmet": "Condensed Carnelian Helmet",
       "item.carnelian.music_disc_water_retro": "Music Disc",
       "item.the_extras.carnelian_shard_shovel": "Carnelian Shard Shovel",
@@ -2285,7 +2305,6 @@
       "item.carnelian.frost_gem": "Frost Gem",
       "advancements.first_carnelian.title": "Carnelian",
       "item.magiccraft.flame_wand": "Flame Wand",
-      "item.carnelian.deep_arrow": "Deep Arrow",
       "item.carnelian.carnelian_shard_armor_boots": "Carnelian Shard Boots",
       "item.carnelian.flame_wand": "Flame Wand",
       "advancements.dense_as_a_something.title": "Dense As A...Something",
@@ -2313,6 +2332,7 @@
       "item.magiccraft.carnelian_crystal_sword": "Carnelian Crystal Sword",
       "block.carnelian.rock_candy_ore": "Rock Candy Ore",
       "item.magiccraft.carnelian_shard_hoe": "Carnelian Shard Hoe",
+      "item.carnelian.wood_shuriken": "Wood Shuriken",
       "item.the_extras.carnelian_shard_sword": "Carnelian Shard Sword",
       "item.carnelian.flame_gem": "Flame Gem",
       "item.carnelian.void_wand": "Void Wand",
