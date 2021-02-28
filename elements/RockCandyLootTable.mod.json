@@ -84,7 +84,7 @@
         ]
       }
     ],
-    "name": "rock_candy_drops",
+    "name": "blocks/rock_candy_ore",
     "namespace": "mod"
   }
 }

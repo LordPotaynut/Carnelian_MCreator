@@ -56,48 +56,6 @@
       "registry_name": "rock_candy_red"
     },
     {
-      "name": "RockCandyOreBlockDestroyedByPlayer",
-      "type": "procedure",
-      "sortid": 8,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rock_candy_ore_block_destroyed_by_player",
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
-      "name": "RockCandyDrops",
-      "type": "loottable",
-      "sortid": 9,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "registry_name": "rock_candy_drops"
-    },
-    {
       "name": "MagicCraft",
       "type": "tab",
       "sortid": 10,
@@ -2438,6 +2396,15 @@
       "locked_code": false,
       "ids": {},
       "registry_name": "iron_framed_glass_pane_recipe"
+    },
+    {
+      "name": "RockCandyLootTable",
+      "type": "loottable",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "rock_candy_loot_table"
     }
   ],
   "variable_elements": [],
