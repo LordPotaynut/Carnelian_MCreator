@@ -2,7 +2,6 @@ package net.mcreator.carnelian.procedures;
 
 import net.minecraft.world.World;
 import net.minecraft.world.IWorld;
-import net.minecraft.item.PickaxeItem;
 import net.minecraft.item.ItemStack;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.entity.item.ItemEntity;
@@ -59,8 +58,7 @@ public class DeepStoneOreBlockDestroyedByPlayerProcedure extends CarnelianModEle
 		IWorld world = (IWorld) dependencies.get("world");
 		ItemStack HeldTool = ItemStack.EMPTY;
 		HeldTool = ((entity instanceof LivingEntity) ? ((LivingEntity) entity).getHeldItemMainhand() : ItemStack.EMPTY);
-		if (((!((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).abilities.isCreativeMode : false))
-				&& ((HeldTool).getItem() instanceof PickaxeItem))) {
+		if ((!((entity instanceof PlayerEntity) ? ((PlayerEntity) entity).abilities.isCreativeMode : false))) {
 			if ((((HeldTool).getItem().canHarvestBlock(Blocks.IRON_ORE.getDefaultState()))
 					&& ((EnchantmentHelper.getEnchantmentLevel(Enchantments.SILK_TOUCH, (HeldTool)) != 0)))) {
 				if (world instanceof World && !world.isRemote()) {
