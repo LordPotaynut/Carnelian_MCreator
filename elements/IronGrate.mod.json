@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "iron_framed_glass",
+    "texture": "ironplatetrapdoor",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -15,12 +15,12 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Pane",
+    "blockBase": "TrapDoor",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
-    "transparencyType": "SOLID",
+    "connectedSides": true,
+    "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Iron Framed Glass Pane",
+    "name": "Iron Grate",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 6.0,
@@ -73,7 +73,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

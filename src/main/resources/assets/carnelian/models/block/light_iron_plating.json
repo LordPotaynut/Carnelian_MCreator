@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "carnelian:blocks/lightplate1",
+    "particle": "carnelian:blocks/lightplate1"
+  }
+}

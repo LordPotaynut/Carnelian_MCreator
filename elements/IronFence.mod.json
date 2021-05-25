@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "iron_framed_glass",
+    "texture": "ironfence",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -13,7 +13,7 @@
     "rotationMode": 0,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "",
+    "itemTexture": "ironfencedisplay",
     "particleTexture": "",
     "blockBase": "Pane",
     "tintType": "No tint",
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Iron Framed Glass Pane",
+    "name": "Iron Fence",
     "specialInfo": [],
     "hardness": 1.0,
     "resistance": 6.0,
@@ -73,7 +73,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

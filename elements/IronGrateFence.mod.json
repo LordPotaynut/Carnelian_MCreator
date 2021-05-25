@@ -2,7 +2,7 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "iron_framed_glass",
+    "texture": "ironplatetrapdoor",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -33,10 +33,10 @@
         "subtract": false
       }
     ],
-    "name": "Iron Framed Glass Pane",
+    "name": "Iron Grate Fence",
     "specialInfo": [],
     "hardness": 1.0,
-    "resistance": 6.0,
+    "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -73,7 +73,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

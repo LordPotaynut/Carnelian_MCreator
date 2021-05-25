@@ -2,10 +2,10 @@
   "_fv": 18,
   "_type": "block",
   "definition": {
-    "texture": "iron_framed_glass",
-    "textureTop": "",
-    "textureLeft": "",
-    "textureFront": "",
+    "texture": "lightplate1",
+    "textureTop": "lightplate1",
+    "textureLeft": "lightplate2",
+    "textureFront": "lightplate2",
     "textureRight": "",
     "textureBack": "",
     "renderType": 11,
@@ -15,10 +15,9 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "blockBase": "Pane",
     "tintType": "No tint",
     "isItemTinted": false,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "connectedSides": false,
     "transparencyType": "SOLID",
     "disableOffset": false,
@@ -33,10 +32,10 @@
         "subtract": false
       }
     ],
-    "name": "Iron Framed Glass Pane",
+    "name": "Light Iron Plating",
     "specialInfo": [],
-    "hardness": 1.0,
-    "resistance": 6.0,
+    "hardness": 2.0,
+    "resistance": 9.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -51,7 +50,7 @@
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
-    "lightOpacity": 0,
+    "lightOpacity": 255,
     "material": {
       "value": "IRON"
     },
@@ -73,7 +72,7 @@
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "GLASS"
+      "value": "METAL"
     },
     "luminance": 0,
     "unbreakable": false,

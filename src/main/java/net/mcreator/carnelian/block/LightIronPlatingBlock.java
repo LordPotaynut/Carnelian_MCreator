@@ -2,22 +2,14 @@
 package net.mcreator.carnelian.block;
 
 import net.minecraftforge.registries.ObjectHolder;
-import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.common.ToolType;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
 
-import net.minecraft.world.IBlockReader;
-import net.minecraft.util.math.BlockPos;
 import net.minecraft.loot.LootContext;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Item;
 import net.minecraft.item.BlockItem;
-import net.minecraft.client.renderer.RenderTypeLookup;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.SoundType;
-import net.minecraft.block.PaneBlock;
 import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
@@ -28,11 +20,11 @@ import java.util.List;
 import java.util.Collections;
 
 @CarnelianModElements.ModElement.Tag
-public class IronFramedGlassPaneBlock extends CarnelianModElements.ModElement {
-	@ObjectHolder("carnelian:iron_framed_glass_pane")
+public class LightIronPlatingBlock extends CarnelianModElements.ModElement {
+	@ObjectHolder("carnelian:light_iron_plating")
 	public static final Block block = null;
-	public IronFramedGlassPaneBlock(CarnelianModElements instance) {
-		super(instance, 193);
+	public LightIronPlatingBlock(CarnelianModElements instance) {
+		super(instance, 195);
 	}
 
 	@Override
@@ -40,22 +32,11 @@ public class IronFramedGlassPaneBlock extends CarnelianModElements.ModElement {
 		elements.blocks.add(() -> new CustomBlock());
 		elements.items.add(() -> new BlockItem(block, new Item.Properties().group(MagicCraftItemGroup.tab)).setRegistryName(block.getRegistryName()));
 	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public void clientLoad(FMLClientSetupEvent event) {
-		RenderTypeLookup.setRenderLayer(block, RenderType.getCutout());
-	}
-	public static class CustomBlock extends PaneBlock {
+	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.GLASS).hardnessAndResistance(1f, 6f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
-			setRegistryName("iron_framed_glass_pane");
-		}
-
-		@Override
-		public boolean propagatesSkylightDown(BlockState state, IBlockReader reader, BlockPos pos) {
-			return true;
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(2f, 9f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool());
+			setRegistryName("light_iron_plating");
 		}
 
 		@Override
