@@ -2136,7 +2136,7 @@
     "author": "Damckell",
     "websiteURL": "https://www.youtube.com/watch?v\u003ddQw4w9WgXcQ",
     "license": "All Rights Reserved",
-    "disableForgeVersionCheck": false,
+    "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "pack",
     "requiredMods": [],
