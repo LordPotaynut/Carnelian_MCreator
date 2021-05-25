@@ -50,8 +50,8 @@ public class IronPlateDoorBlock extends CarnelianModElements.ModElement {
 	}
 	public static class CustomBlock extends DoorBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 10f).setLightLevel(s -> 0).harvestLevel(1)
-					.harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.IRON).sound(SoundType.METAL).hardnessAndResistance(1f, 6f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("iron_plate_door");
 		}
 

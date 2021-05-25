@@ -1,5 +1,5 @@
 {
-  "_fv": 15,
+  "_fv": 18,
   "_type": "block",
   "definition": {
     "texture": "iron_framed_glass",
@@ -15,19 +15,27 @@
     "displayFluidOverlay": true,
     "itemTexture": "",
     "particleTexture": "",
+    "tintType": "No tint",
+    "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": true,
     "transparencyType": "CUTOUT",
-    "mx": 0.0,
-    "my": 0.0,
-    "mz": 0.0,
-    "Mx": 1.0,
-    "My": 1.0,
-    "Mz": 1.0,
+    "disableOffset": false,
+    "boundingBoxes": [
+      {
+        "mx": 0.0,
+        "my": 0.0,
+        "mz": 0.0,
+        "Mx": 16.0,
+        "My": 16.0,
+        "Mz": 16.0,
+        "subtract": false
+      }
+    ],
     "name": "Iron Framed Glass",
     "specialInfo": [],
     "hardness": 1.5,
-    "resistance": 15.0,
+    "resistance": 6.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
@@ -59,6 +67,8 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
+    "speedFactor": 1.0,
+    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {

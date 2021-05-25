@@ -49,8 +49,8 @@ public class IronFramedGlassBlock extends CarnelianModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1.5f, 15f).setLightLevel(s -> 0)
-					.harvestLevel(1).harvestTool(ToolType.PICKAXE).notSolid().setOpaque((bs, br, bp) -> false));
+			super(Block.Properties.create(Material.GLASS).sound(SoundType.GLASS).hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0).harvestLevel(1)
+					.harvestTool(ToolType.PICKAXE).setRequiresTool().notSolid().setOpaque((bs, br, bp) -> false));
 			setRegistryName("iron_framed_glass");
 		}
 

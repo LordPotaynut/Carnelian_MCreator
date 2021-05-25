@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "carnelian:blocks/small_iron_plating",
+    "particle": "carnelian:blocks/small_iron_plating"
+  }
+}

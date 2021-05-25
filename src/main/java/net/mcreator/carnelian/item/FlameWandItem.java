@@ -5,8 +5,7 @@ import net.minecraftforge.registries.ObjectHolder;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.fml.network.NetworkHooks;
 import net.minecraftforge.fml.network.FMLPlayMessages;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.client.registry.RenderingRegistry;
+import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.minecraftforge.api.distmarker.OnlyIn;
 import net.minecraftforge.api.distmarker.Dist;
 
@@ -29,10 +28,9 @@ import net.minecraft.entity.IRendersAsItem;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.Entity;
-import net.minecraft.client.renderer.entity.SpriteRenderer;
-import net.minecraft.client.Minecraft;
 
 import net.mcreator.carnelian.itemgroup.MagicCraftItemGroup;
+import net.mcreator.carnelian.entity.renderer.FlameWandRenderer;
 import net.mcreator.carnelian.CarnelianModElements;
 
 import java.util.Random;
@@ -41,25 +39,18 @@ import java.util.Random;
 public class FlameWandItem extends CarnelianModElements.ModElement {
 	@ObjectHolder("carnelian:flame_wand")
 	public static final Item block = null;
-	@ObjectHolder("carnelian:entitybulletflame_wand")
-	public static final EntityType arrow = null;
+	public static final EntityType arrow = (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
+			.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
+			.size(0.5f, 0.5f)).build("entitybulletflame_wand").setRegistryName("entitybulletflame_wand");
 	public FlameWandItem(CarnelianModElements instance) {
 		super(instance, 11);
+		FMLJavaModLoadingContext.get().getModEventBus().register(new FlameWandRenderer.ModelRegisterHandler());
 	}
 
 	@Override
 	public void initElements() {
 		elements.items.add(() -> new ItemRanged());
-		elements.entities.add(() -> (EntityType.Builder.<ArrowCustomEntity>create(ArrowCustomEntity::new, EntityClassification.MISC)
-				.setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).setCustomClientFactory(ArrowCustomEntity::new)
-				.size(0.5f, 0.5f)).build("entitybulletflame_wand").setRegistryName("entitybulletflame_wand"));
-	}
-
-	@Override
-	@OnlyIn(Dist.CLIENT)
-	public void init(FMLCommonSetupEvent event) {
-		RenderingRegistry.registerEntityRenderingHandler(arrow,
-				renderManager -> new SpriteRenderer(renderManager, Minecraft.getInstance().getItemRenderer()));
+		elements.entities.add(() -> arrow);
 	}
 	public static class ItemRanged extends Item {
 		public ItemRanged() {
