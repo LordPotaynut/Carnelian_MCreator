@@ -1,0 +1,27 @@
+{
+  "group": "carnelian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " 1 ",
+    "3 5",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "carnelian:deep_stone"
+    },
+    "3": {
+      "item": "carnelian:deep_stone"
+    },
+    "5": {
+      "item": "carnelian:deep_stone"
+    },
+    "7": {
+      "item": "carnelian:deep_stone"
+    }
+  },
+  "result": {
+    "item": "carnelian:deep_shuriken",
+    "count": 4
+  }
+}

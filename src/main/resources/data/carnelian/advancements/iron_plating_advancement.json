@@ -19,8 +19,8 @@
     "experience": 1,
     "recipes": [
       "carnelian:iron_plating_recipe",
-      "carnelian:iron_framed_glass_recipe",
-      "carnelian:iron_plate_door_recipe"
+      "unknown_element",
+      "unknown_element"
     ]
   },
   "parent": "carnelian:first_carnelian"

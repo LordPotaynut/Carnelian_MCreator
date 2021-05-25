@@ -1,9 +1,9 @@
 {
-  "_fv": 18,
+  "_fv": 15,
   "_type": "block",
   "definition": {
-    "texture": "rock_candy_ore",
-    "textureTop": "",
+    "texture": "iron_framed_glass",
+    "textureTop": "iron_framed_glass",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
@@ -15,44 +15,37 @@
     "displayFluidOverlay": false,
     "itemTexture": "",
     "particleTexture": "",
-    "tintType": "No tint",
-    "isItemTinted": false,
+    "blockBase": "Pane",
     "hasTransparency": false,
     "connectedSides": false,
-    "transparencyType": "SOLID",
-    "disableOffset": false,
-    "boundingBoxes": [
-      {
-        "mx": 0.0,
-        "my": 0.0,
-        "mz": 0.0,
-        "Mx": 16.0,
-        "My": 16.0,
-        "Mz": 16.0,
-        "subtract": false
-      }
-    ],
-    "name": "Rock Candy Ore",
+    "transparencyType": "CUTOUT_MIPPED",
+    "mx": 0.0,
+    "my": 0.0,
+    "mz": 0.0,
+    "Mx": 1.0,
+    "My": 1.0,
+    "Mz": 1.0,
+    "name": "Iron Framed Glass Pane",
     "specialInfo": [],
-    "hardness": 3.0,
+    "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
       "value": "CUSTOM:MagicCraft"
     },
-    "destroyTool": "pickaxe",
+    "destroyTool": "Not specified",
     "customDrop": {
       "value": ""
     },
-    "dropAmount": 0,
+    "dropAmount": 1,
     "useLootTableForDrops": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
     "lightOpacity": 255,
     "material": {
-      "value": "ROCK"
+      "value": "GLASS"
     },
     "tickRate": 10,
     "tickRandomly": false,
@@ -67,16 +60,14 @@
     "fireSpreadSpeed": 0,
     "isLadder": false,
     "slipperiness": 0.6,
-    "speedFactor": 1.0,
-    "jumpFactor": 1.0,
     "reactionToPushing": "NORMAL",
     "isNotColidable": false,
     "soundOnStep": {
-      "value": "STONE"
+      "value": "GLASS"
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 1,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,17 +92,15 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.STONE"
       }
     ],
-    "frequencyPerChunks": 8,
-    "frequencyOnChunk": 8,
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }
