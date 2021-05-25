@@ -46,7 +46,7 @@
       "value": ""
     },
     "dropAmount": 0,
-    "useLootTableForDrops": false,
+    "useLootTableForDrops": true,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
     "canProvidePower": false,
@@ -76,7 +76,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 2,
+    "breakHarvestLevel": 0,
     "spawnParticles": false,
     "particleToSpawn": {
       "value": "EXPLOSION_NORMAL"
@@ -101,6 +101,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onDestroyedByPlayer": {
+      "name": "RockCandyOreBlockDestroyedByPlayer"
+    },
     "spawnWorldTypes": [
       "Surface"
     ],
