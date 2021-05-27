@@ -35,6 +35,7 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.Block;
 
 import net.mcreator.carnelian.itemgroup.MagicCraftItemGroup;
+import net.mcreator.carnelian.item.DeepStoneItem;
 import net.mcreator.carnelian.CarnelianModElements;
 
 import java.util.Random;
@@ -58,7 +59,7 @@ public class DeepStoneOreBlock extends CarnelianModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(1)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(3f, 3f).setLightLevel(s -> 0).harvestLevel(2)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("deep_stone_ore");
 		}
@@ -68,7 +69,7 @@ public class DeepStoneOreBlock extends CarnelianModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 0));
+			return Collections.singletonList(new ItemStack(DeepStoneItem.block, (int) (1)));
 		}
 	}
 	private static Feature<OreFeatureConfig> feature = null;

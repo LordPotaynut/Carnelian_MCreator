@@ -1,10 +1,10 @@
 modLoader="javafml"
 loaderVersion="[36,)"
-license="All Rights Reserved"
+license="MIT License"
 
 [[mods]]
 modId="carnelian"
-version="1.7.1"
+version="1.8.1"
 displayName="Carnelian"
 credits="MCreator, BeepBox, Aseprite, RaineTyler"
 displayURL="https://www.youtube.com/watch?v=dQw4w9WgXcQ"

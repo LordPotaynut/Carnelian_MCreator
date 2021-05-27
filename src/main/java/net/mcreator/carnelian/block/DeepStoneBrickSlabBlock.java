@@ -36,7 +36,7 @@ public class DeepStoneBrickSlabBlock extends CarnelianModElements.ModElement {
 	}
 	public static class CustomBlock extends SlabBlock {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("deep_stone_brick_slab");
 		}

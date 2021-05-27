@@ -1,0 +1,13 @@
+{
+  "group": "carnelian",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "carnelian:carnelian_block"
+    }
+  ],
+  "result": {
+    "item": "carnelian:carnelian_crystal",
+    "count": 4
+  }
+}

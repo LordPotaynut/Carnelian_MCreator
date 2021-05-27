@@ -36,9 +36,9 @@ public class VoidBrickStairsBlock extends CarnelianModElements.ModElement {
 	public static class CustomBlock extends StairsBlock {
 		public CustomBlock() {
 			super(() -> new Block(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0)
-					.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
+					.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool()).getDefaultState(),
 					Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(1.5f, 6f).setLightLevel(s -> 0)
-							.harvestLevel(0).harvestTool(ToolType.PICKAXE).setRequiresTool());
+							.harvestLevel(1).harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("void_brick_stairs");
 		}
 
@@ -47,7 +47,7 @@ public class VoidBrickStairsBlock extends CarnelianModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 0));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }

@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 16,
-    "group": "iron_plating",
-    "recipeShapeless": false,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": true,
     "recipeSlots": [
       {
-        "value": ""
-      },
-      {
-        "value": "Blocks.STONE#0"
+        "value": "CUSTOM:IronGrate"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.STONE#0"
-      },
-      {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Blocks.STONE#0"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.STONE#0"
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronPlating"
+      "value": "CUSTOM:IronGrateFence"
     },
-    "name": "iron_plating_recipe",
+    "name": "iron_grate_fence_recipe",
     "namespace": "mod"
   }
 }

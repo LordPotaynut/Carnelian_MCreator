@@ -5,42 +5,42 @@
     "recipeType": "Crafting",
     "xpReward": 0.0,
     "cookingTime": 200,
-    "recipeRetstackSize": 16,
-    "group": "iron_plating",
-    "recipeShapeless": false,
+    "recipeRetstackSize": 4,
+    "group": "",
+    "recipeShapeless": true,
     "recipeSlots": [
       {
         "value": ""
       },
       {
-        "value": "Blocks.STONE#0"
+        "value": ""
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.STONE#0"
+        "value": ""
       },
       {
-        "value": "Items.IRON_INGOT"
-      },
-      {
-        "value": "Blocks.STONE#0"
+        "value": "CUSTOM:CarnelianBlock"
       },
       {
         "value": ""
       },
       {
-        "value": "Blocks.STONE#0"
+        "value": ""
+      },
+      {
+        "value": ""
       },
       {
         "value": ""
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:IronPlating"
+      "value": "CUSTOM:CarnelianCrystal"
     },
-    "name": "iron_plating_recipe",
+    "name": "carnelian_crystal_alt_recipe",
     "namespace": "mod"
   }
 }

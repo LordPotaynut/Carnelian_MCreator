@@ -1,0 +1,13 @@
+{
+  "group": "carnelian",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "carnelian:iron_grate"
+    }
+  ],
+  "result": {
+    "item": "carnelian:iron_grate_fence",
+    "count": 1
+  }
+}

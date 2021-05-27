@@ -1,0 +1,26 @@
+{
+  "group": "carnelian",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "carnelian:iron_plating"
+    },
+    "1": {
+      "item": "carnelian:iron_plating"
+    },
+    "2": {
+      "item": "carnelian:iron_plating"
+    },
+    "3": {
+      "item": "carnelian:iron_plating"
+    }
+  },
+  "result": {
+    "item": "carnelian:small_iron_plating",
+    "count": 4
+  }
+}

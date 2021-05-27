@@ -1938,6 +1938,86 @@
       "ids": {},
       "registry_name": "light_iron_plating",
       "path": "~/Blocks"
+    },
+    {
+      "name": "IronGrateRecipe",
+      "type": "recipe",
+      "sortid": 196,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_grate_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronGrateFenceRecipe",
+      "type": "recipe",
+      "sortid": 197,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_grate_fence_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronGrateAltRecipe",
+      "type": "recipe",
+      "sortid": 198,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_grate_alt_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronFramedGlassPaneRecipe",
+      "type": "recipe",
+      "sortid": 199,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_framed_glass_pane_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "IronFenceRecipe",
+      "type": "recipe",
+      "sortid": 200,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "iron_fence_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "LightIronPlatingRecipe",
+      "type": "recipe",
+      "sortid": 201,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "light_iron_plating_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "SmallIronPlatingRecipe",
+      "type": "recipe",
+      "sortid": 202,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "small_iron_plating_recipe",
+      "path": "~/Recipes"
+    },
+    {
+      "name": "CarnelianCrystalAltRecipe",
+      "type": "recipe",
+      "sortid": 203,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "carnelian_crystal_alt_recipe",
+      "path": "~/Recipes"
     }
   ],
   "variable_elements": [],
@@ -2186,11 +2266,11 @@
   "workspaceSettings": {
     "modid": "carnelian",
     "modName": "Carnelian",
-    "version": "1.7.1",
+    "version": "1.8.1",
     "description": "A simple mod that adds such things as rock candy, wands with magical properties, a couple of new color stone variants, and a new gem called Carnelian.",
     "author": "Damckell",
     "websiteURL": "https://www.youtube.com/watch?v\u003ddQw4w9WgXcQ",
-    "license": "All Rights Reserved",
+    "license": "MIT License",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "pack",

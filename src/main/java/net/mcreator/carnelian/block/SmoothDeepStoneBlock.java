@@ -34,7 +34,7 @@ public class SmoothDeepStoneBlock extends CarnelianModElements.ModElement {
 	}
 	public static class CustomBlock extends Block {
 		public CustomBlock() {
-			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).setLightLevel(s -> 0).harvestLevel(0)
+			super(Block.Properties.create(Material.ROCK).sound(SoundType.STONE).hardnessAndResistance(2f, 6f).setLightLevel(s -> 0).harvestLevel(1)
 					.harvestTool(ToolType.PICKAXE).setRequiresTool());
 			setRegistryName("smooth_deep_stone");
 		}
@@ -44,7 +44,7 @@ public class SmoothDeepStoneBlock extends CarnelianModElements.ModElement {
 			List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 			if (!dropsOriginal.isEmpty())
 				return dropsOriginal;
-			return Collections.singletonList(new ItemStack(this, 0));
+			return Collections.singletonList(new ItemStack(this, 1));
 		}
 	}
 }
